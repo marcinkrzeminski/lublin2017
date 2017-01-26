@@ -4301,7 +4301,7 @@ object {
     /* Navigation */
 
     .navigation-top {
-        bottom: 0;
+        top: 0;
         font-size: 14px;
         font-size: 0.875rem;
         left: 0;
