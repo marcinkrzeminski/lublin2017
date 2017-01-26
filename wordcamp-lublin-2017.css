@@ -44,6 +44,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 18.0 SVGs Fallbacks
 19.0 Media Queries
 20.0 Print
+21.0 Sections specify Components
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -5157,4 +5158,19 @@ object {
     .site-footer {
         padding: 0;
     }
+}
+
+/*--------------------------------------------------------------
+21.0 Sections specify Components
+--------------------------------------------------------------*/
+.site-main .post-24 .entry-header{
+
+    display: none;
+
+}
+
+.site-main .post-24 .wrap{
+
+    padding-top: 0;
+
 }
