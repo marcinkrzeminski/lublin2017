@@ -5187,6 +5187,13 @@ object {
 
 }
 
+.site-main .post-24{
+
+    position: relative;
+    z-index: 200;
+
+}
+
 .site-main .post-24 .wrap{
 
     padding-top: 0;
