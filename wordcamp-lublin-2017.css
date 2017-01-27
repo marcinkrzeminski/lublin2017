@@ -5152,8 +5152,17 @@ object {
 
 .column-frontpage-main-info{
 
-    height: 250px;
+    height: 200px;
     outline: 1px solid red;
+
+
+}
+
+.column-frontpage-main-info a{
+
+    display: block;
+    width: 100%;
+    height: 100%;
     vertical-align: middle;
 
 }
