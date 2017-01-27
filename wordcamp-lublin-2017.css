@@ -5147,7 +5147,19 @@ object {
 }
 
 /*--------------------------------------------------------------
-21.0 Sections specify Components
+21.0 Components
+--------------------------------------------------------------*/
+
+.column-frontpage-main-info{
+
+    height: 250px;
+    outline: 1px solid red;
+    vertical-align: middle;
+
+}
+
+/*--------------------------------------------------------------
+22.0 Sections specify Components
 --------------------------------------------------------------*/
 .site-main .post-24 .entry-header{
 
