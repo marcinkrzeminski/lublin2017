@@ -5153,6 +5153,7 @@ object {
 .column-frontpage-main-info{
 
     height: 200px;
+    outline: 1px solid red;
 
 
 
@@ -5164,7 +5165,7 @@ object {
     width: 100%;
     height: 200px;
 
-    outline: 1px solid red;
+
 
 }
 
