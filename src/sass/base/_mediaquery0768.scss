@@ -13,7 +13,7 @@
   }
   /* Layout */
   .wrap {
-    max-width: 1000px;
+    max-width: $max-width-wrap;
     padding-left: 3em;
     padding-right: 3em;
   }
@@ -98,7 +98,7 @@
   }
   /* Navigation */
   .navigation-top {
-    bottom: 0;
+    top: 0;
     font-size: 14px;
     font-size: 0.875rem;
     left: 0;
@@ -107,7 +107,7 @@
     width: 100%;
     z-index: 3;
     .wrap {
-      max-width: 1000px;
+      max-width: $max-width-wrap;
       /* The font size is 14px here and we need 50px padding in ems */
       padding: 0.75em 3.4166666666667em;
     }
@@ -116,11 +116,11 @@
     }
   }
   .site-navigation-fixed.navigation-top {
-    bottom: auto;
+    top: 0;
     position: fixed;
     left: 0;
     right: 0;
-    top: 0;
+
     width: 100%;
     z-index: 7;
   }
