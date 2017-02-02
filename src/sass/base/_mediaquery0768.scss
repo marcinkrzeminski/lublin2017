@@ -34,6 +34,8 @@
   /* Site Branding */
   .site-branding {
     margin-bottom: 0;
+    min-height: 200px;
+    padding-top: $navigation-top-height + 30px;
   }
   .has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
     bottom: 0;
@@ -48,9 +50,27 @@
     display: block;
     height: auto;
   }
+
+  .custom-header{
+
+    margin-bottom: 0 !important;
+
+  }
+
   .custom-header-media {
-    height: 165px;
+
     position: relative;
+
+    .wp-custom-header{
+
+      img{
+
+        top: $navigation-top-height;
+
+      }
+
+    }
+
   }
   .twentyseventeen-front-page {
     &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
@@ -66,7 +86,7 @@
   }
   .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media, .has-header-video:not(.twentyseventeen-front-page):not(.home) .custom-header-media {
     bottom: 0;
-    height: auto;
+    height: 230px;
     left: 0;
     position: absolute;
     right: 0;
@@ -103,6 +123,7 @@
     font-size: 0.875rem;
     left: 0;
     position: absolute;
+    height: $navigation-top-height;
     right: 0;
     width: 100%;
     z-index: 3;
@@ -351,7 +372,7 @@
   .twentyseventeen-front-page {
     &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
       height: 1200px;
-      height: 100vh;
+      height: $top-header-height-home;
       max-height: 100%;
       overflow: hidden;
     }
@@ -359,7 +380,7 @@
   .home.blog {
     &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
       height: 1200px;
-      height: 100vh;
+      height: $top-header-height-home;
       max-height: 100%;
       overflow: hidden;
     }
@@ -377,12 +398,13 @@
   .admin-bar {
     &.twentyseventeen-front-page {
       &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
-        height: calc(100vh - 32px);
+        height: $top-header-height-with-admin-bar;
       }
     }
     &.home.blog {
+
       &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
-        height: calc(100vh - 32px);
+        height: $top-header-height-with-admin-bar;
       }
     }
   }
@@ -391,8 +413,9 @@
     padding-top: 6em;
   }
   .panel-image {
-    height: 100vh;
+    height: $top-header-height;
     max-height: 1200px;
+
   }
   /* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
   .background-fixed .panel-image {
