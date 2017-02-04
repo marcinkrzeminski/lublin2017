@@ -12,6 +12,23 @@
     padding-bottom: 2em;
     padding-top: 2em;
   }
+
+
+
+  .widget-column{
+
+    width: 100%;
+
+    .widget{
+
+      width: 33%;
+      float: left;
+
+    }
+
+  }
+
+
 }
 
 .social-navigation {
