@@ -17,6 +17,22 @@
     padding-left: 3em;
     padding-right: 3em;
   }
+
+  .home{
+
+    .panel-content{
+
+      .wrap {
+
+        max-width: $max-width-wrap-home;
+        padding: 40px 0;
+        margin: 0;
+
+      }
+
+    }
+
+  }
   .has-sidebar {
     &:not(.error404) #primary {
       float: left;
