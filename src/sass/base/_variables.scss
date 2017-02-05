@@ -20,6 +20,9 @@ $gray6: #777;
 $blue1: #0085ba;
 $blue2: #21759b;
 
+$navigation-background-color: #000;
+$navigation-color-hover: #ffc740;
+
 // Fonts
 $font-family-base: sans-serif;
 $font-family-code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
@@ -41,8 +44,8 @@ $font-family-pre: "Courier 10 Pitch", Courier, monospace;
 
 $max-width-wrap: 1200px;
 $max-width-wrap-home: 100%;
-$top-header-height: calc(30vh+ 70px);
-$top-header-height-home: calc(90vh + 70px);
-$top-header-height-with-admin-bar: calc(90vh - 32px);
+$top-header-height: calc(250px+ 70px);
+$top-header-height-home: calc(100vh + 70px);
+$top-header-height-with-admin-bar: calc(100vh - 32px);
 
 $navigation-top-height: 70px;

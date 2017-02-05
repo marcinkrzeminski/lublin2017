@@ -19,6 +19,8 @@
   -webkit-transition: margin-bottom 0.2s;
   transition: margin-bottom 0.2s;
   z-index: 3;
+  height: $top-header-height;
+
   a {
     text-decoration: none;
     -webkit-transition: opacity 0.2s;
