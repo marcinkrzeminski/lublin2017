@@ -102,6 +102,18 @@
 
   }
 
+  .custom-logo-link {
+
+    width: 170px;
+    margin-top: 40px;
+    img {
+
+      max-height: 170px;
+
+    }
+  }
+
+
 }
 
 
@@ -112,8 +124,36 @@
 .column-frontpage-main-info{
 
   height: 200px;
-  outline: 1px solid red;
-  background: #fff;
+  background: $brand-logo-color-blue;
+  color: #fff;
+
+  &.column-frontpage-variant-1{
+
+    background: $box-color-1;
+
+  }
+
+  .dashicons{
+
+    display: block;
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+
+  }
+
+  &.column-frontpage-variant-2{
+
+    background: $box-color-2;
+
+  }
+
+  &.column-frontpage-variant-4{
+
+    background: $box-color-4;
+
+  }
+
 
   a{
 
@@ -121,14 +161,33 @@
     width: 100%;
     height: 200px;
     text-decoration: none;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: none;
 
-    span{
+    &:hover{
+
+      box-shadow: none;
+
+    }
+
+    > span{
 
       display: table-cell;
       width: 100%;
-      height: 200px;
+      height: 100px;
       vertical-align: middle;
       text-align: center;
+      clear: both;
+
+      span{
+
+        font-size: 60px;
+        display: inline-block;
+        margin-top: -40px;
+
+      }
 
     }
 

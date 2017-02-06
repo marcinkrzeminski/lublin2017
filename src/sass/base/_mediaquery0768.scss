@@ -83,7 +83,7 @@
     padding-top: $navigation-top-height + 30px;
   }
   .has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
-    bottom: 0;
+    top: 120px;
     display: block;
     left: 0;
     height: auto;
@@ -148,8 +148,10 @@
     font-size: 2.25rem;
   }
   .site-description {
-    font-size: 16px;
-    font-size: 1rem;
+
+    font-size: 20px;
+    font-size: 1.5rem;
+
   }
   /* Navigation */
   .navigation-top {
@@ -331,6 +333,8 @@
       position: fixed;
       top: 200px;
       right: 0;
+      background: $yellow;
+      border-radius: 100%;
       .icon {
         -webkit-transform: rotate(90deg);
         /* Chrome, Safari, Opera */
