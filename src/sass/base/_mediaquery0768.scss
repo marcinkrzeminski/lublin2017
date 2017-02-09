@@ -73,12 +73,14 @@
   .has-sidebar {
     &:not(.error404) #primary {
       float: left;
-      width: 58%;
+      width: 65%;
     }
     #secondary {
       float: right;
       padding-top: 0;
-      width: 36%;
+      width: 30%;
+
+
     }
   }
   .error404 #primary {
@@ -474,7 +476,7 @@
   }
   .single-post .entry-title, .page .entry-title {
     font-size: 46px;
-    font-size: 2.125rem;
+    font-size: 2.525rem;
   }
   .comments-pagination {
     clear: both;
