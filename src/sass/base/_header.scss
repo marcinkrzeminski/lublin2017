@@ -45,12 +45,15 @@ body {
 }
 
 .site-description {
-  color: #fff;
+
   font-size: 25px;
   font-size: 0.8125rem;
   margin-bottom: 0;
   display: block;
-  background: $yellow;
+  color: $yellow;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 body {

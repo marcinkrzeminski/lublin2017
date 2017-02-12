@@ -3,7 +3,7 @@
   body, button, input, select, textarea {
     font-size: 16px;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.8;
   }
   .entry-content blockquote {
     &.alignleft, &.alignright {
@@ -40,7 +40,6 @@
 
           h2{
 
-            color: $brand-logo-color-blue;
             font-size: 40px;
             margin-bottom: 50px;
 
@@ -93,7 +92,7 @@
     padding-top: $navigation-top-height + 30px;
   }
   .has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
-    top: 120px;
+    top: 80px;
     display: block;
     left: 0;
     height: auto;
@@ -339,7 +338,10 @@
     }
     .menu-scroll-down {
       display: block;
-      padding: 1em;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 40px;
       position: fixed;
       top: 200px;
       right: 0;
@@ -351,6 +353,7 @@
         -ms-transform: rotate(90deg);
         /* IE 9 */
         transform: rotate(90deg);
+        top: -10px;
       }
       color: #fff;
 
@@ -605,7 +608,7 @@
   }
   /* Pages */
   .page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
   }
   .page:not(.home) #content {
     padding-bottom: 3.25em;
@@ -730,6 +733,26 @@
 
     width: $max-width-wrap/2-30px;
     float: right;
+
+  }
+
+  /*icon list*/
+
+  .wc-icon-list{
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+
+    li{
+
+      width: 25%;
+      display: inline-block;
+      box-sizing: border-box;
+      padding: 15px;
+
+    }
 
   }
 }
