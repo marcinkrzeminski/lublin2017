@@ -1,6 +1,6 @@
 'use strict';
 
-
+require('es6-promise').polyfill();
 
 var gulp         = require('gulp'),
     cssnano      = require('gulp-cssnano'),
@@ -18,9 +18,7 @@ var supported = [
 gulp.task('css', function(){
     return gulp.src(['src/sass/**/*.scss'])
         .pipe(sass())
-        .pipe(cssnano({
-            autoprefixer: {browsers: supported, add: true}
-        }))
+
         .pipe(gulp.dest('./'));
 });
 

@@ -51,10 +51,10 @@ $font-family-pre: "Courier 10 Pitch", Courier, monospace;
 
 //Size
 
-$max-width-wrap: 1200px;
+$max-width-wrap: 1170px;
 $max-width-wrap-home: 100%;
 $top-header-height: calc(250px+ 70px);
-$top-header-height-home: calc(100vh + 70px);
-$top-header-height-with-admin-bar: calc(100vh - 32px);
+$top-header-height-home: calc(90vh + 70px);
+$top-header-height-with-admin-bar: calc(90vh - 32px);
 
 $navigation-top-height: 70px;

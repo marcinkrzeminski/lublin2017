@@ -14,8 +14,8 @@
   /* Layout */
   .wrap {
     max-width: $max-width-wrap;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .home{
@@ -717,5 +717,19 @@
   }
   .gallery-columns-9 .gallery-item {
     max-width: 11.11%;
+  }
+
+  /*half columns & columns no padding*/
+  .column-no-padding-right{
+
+    padding-right: 0!important;
+
+  }
+
+  .wc-half-container{
+
+    width: $max-width-wrap/2-30px;
+    float: right;
+
   }
 }

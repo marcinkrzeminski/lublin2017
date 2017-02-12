@@ -37,9 +37,7 @@
   }
 }
 
-.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
-  border-top: 1px solid $silver3;
-}
+
 
 .panel-content {
   position: relative;
@@ -190,6 +188,24 @@
       }
 
     }
+
+  }
+
+}
+
+/*sections*/
+
+.twentyseventeen-panel{
+
+  h2{
+
+    text-align: center;
+
+  }
+
+  &.post-12{
+
+    background: $silver1;
 
   }
 
