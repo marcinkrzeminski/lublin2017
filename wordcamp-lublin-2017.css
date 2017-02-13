@@ -843,17 +843,20 @@ template, [hidden] {
 --------------------------------------------------------------*/
 body, button, input, select, textarea {
     color: #333;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-size: 0.9375rem;
     font-weight: 400;
-    line-height: 1.66; }
+    line-height: 2.16; }
 
 h1, h2, h3, h4, h5, h6 {
     clear: both;
-    line-height: 1.4;
+    line-height: 1.5;
     margin: 0 0 0.75em;
-    padding: 1.5em 0 0; }
+    padding: 1.5em 0 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700; }
 
 h1:first-child,
 h2:first-child,
@@ -871,8 +874,7 @@ h1 {
 h2 {
     color: #666;
     font-size: 20px;
-    font-size: 1.25rem;
-    font-weight: 300; }
+    font-size: 1.25rem; }
 
 h3 {
     color: #333;
@@ -1309,7 +1311,7 @@ td:last-child {
 10.0 Links
 --------------------------------------------------------------*/
 a {
-    color: #222;
+    color: #006f9a;
     text-decoration: none; }
 a:hover, a:active {
     color: #000;
@@ -1567,6 +1569,9 @@ a:hover .nav-title {
     margin: 0;
     padding: 0 1.5em;
     text-align: left; }
+.main-navigation ul a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; }
 
 /* Hide the menu on small screens when JavaScript is available.
  * It only works with JavaScript.
@@ -1753,12 +1758,14 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
     color: #fff; }
 
 .site-description {
-    color: #fff;
     font-size: 25px;
     font-size: 0.8125rem;
     margin-bottom: 0;
     display: block;
-    background: #ffc740; }
+    color: #ffc740;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; }
 
 body.has-header-image .site-description, body.has-header-video .site-description {
     display: block;
@@ -1998,11 +2005,16 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .home .custom-logo-link img {
     max-height: 170px; }
 
+.home .site-main h2 {
+    color: #3d3d3c; }
+
 /* Frontpage Components */
 .column-frontpage-main-info {
     height: 200px;
     background: #006f9a;
-    color: #fff; }
+    color: #fff;
+    position: relative;
+    overflow: hidden; }
 .column-frontpage-main-info.column-frontpage-variant-1 {
     background: #E0C61A; }
 .column-frontpage-main-info .dashicons {
@@ -2022,9 +2034,35 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
     color: #fff;
     border: none;
     text-transform: uppercase;
-    box-shadow: none; }
+    box-shadow: none;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden; }
 .column-frontpage-main-info a:hover {
-    box-shadow: none; }
+    box-shadow: none;
+    color: #ededed; }
+.column-frontpage-main-info a:hover:before {
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    top: 0;
+    left: 0; }
+.column-frontpage-main-info a:before {
+    display: block;
+    content: '';
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    top: 50%;
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    left: 50%;
+    background: #fff;
+    opacity: 0.2; }
 .column-frontpage-main-info a > span {
     display: table-cell;
     width: 100%;
@@ -2032,7 +2070,15 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
     vertical-align: middle;
     text-align: center;
     clear: both;
-    line-height: 1.5; }
+    line-height: 2; }
+.column-frontpage-main-info a > span small {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 5px 10px;
+    background: #ffc740;
+    color: #006f9a; }
 .column-frontpage-main-info a > span img {
     border: none;
     box-shadow: none; }
@@ -2212,6 +2258,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
     font-size: 0.8125rem; }
 
 /* More tag */
+.entry-content .more-link {
+    color: #006f9a;
+    text-align: right; }
+
 .entry-content .more-link:before {
     content: "";
     display: block;
@@ -2227,6 +2277,17 @@ body:not(.twentyseventeen-front-page) .entry-header {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%; }
+
+.archive .page-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #767676;
+    text-align: center; }
+
+.archive .post .entry-title {
+    font-size: 40px; }
+.archive .post .entry-title a {
+    color: #006f9a; }
 
 .single-featured-image-header {
     background-color: #fafafa;
@@ -3017,9 +3078,27 @@ embed, iframe, object {
     visibility: visible; }
 
 /* Ensure that placeholder icons are visible. */
+.wc-text-center {
+    text-align: center; }
+
+.wc-text-strong {
+    background: #ffc740;
+    padding: 0 5px; }
+
 .wc-big-list li {
     font-size: 18px;
     margin-bottom: 10px; }
+
+.wc-box-icon {
+    text-align: center;
+    padding-bottom: 20px; }
+.wc-box-icon i {
+    font-size: 50px;
+    color: #0085ba; }
+
+/*Organizatorzy*/
+.wc-padding-row {
+    padding-bottom: 40px; }
 
 /*--------------------------------------------------------------
 18.0 SVGs Fallbacks
@@ -3151,7 +3230,7 @@ embed, iframe, object {
     body, button, input, select, textarea {
         font-size: 16px;
         font-size: 1rem;
-        line-height: 1.5; }
+        line-height: 1.8; }
     .entry-content blockquote.alignleft, .entry-content blockquote.alignright {
         font-size: 13px;
         font-size: 0.8125rem; }
@@ -3165,7 +3244,6 @@ embed, iframe, object {
         padding: 40px 0;
         margin: 0; }
     .home .site-content-contain .site-main h2 {
-        color: #006f9a;
         font-size: 40px;
         margin-bottom: 50px; }
     .home .site-content-contain .site-main article {
@@ -3187,7 +3265,7 @@ embed, iframe, object {
         min-height: 200px;
         padding-top: 100px; }
     .has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
-        top: 120px;
+        top: 80px;
         display: block;
         left: 0;
         height: auto;
@@ -3340,7 +3418,10 @@ embed, iframe, object {
         display: none; }
     .site-header .menu-scroll-down {
         display: block;
-        padding: 1em;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 40px;
         position: fixed;
         top: 200px;
         right: 0;
@@ -3352,7 +3433,8 @@ embed, iframe, object {
         /* Chrome, Safari, Opera */
         -ms-transform: rotate(90deg);
         /* IE 9 */
-        transform: rotate(90deg); }
+        transform: rotate(90deg);
+        top: -10px; }
     .site-header .navigation-top .menu-scroll-down {
         color: #767676;
         top: 90vh;
@@ -3512,7 +3594,7 @@ embed, iframe, object {
         left: -1.5em; }
     /* Pages */
     .page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
-        margin-bottom: 4em; }
+        margin-bottom: 2em; }
     .page:not(.home) #content {
         padding-bottom: 3.25em; }
     /* 404 page */
@@ -3594,7 +3676,17 @@ embed, iframe, object {
         padding-right: 0 !important; }
     .wc-half-container {
         width: 555px;
-        float: right; } }
+        float: right; }
+    /*icon list*/
+    .wc-icon-list {
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+    .wc-icon-list li {
+        width: 25%;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 15px; } }
 
 @media screen and (min-width: 67em) {
     /* Navigation */
@@ -3632,7 +3724,7 @@ embed, iframe, object {
     .blog:not(.has-sidebar) .entry-content blockquote.alignright, .archive:not(.has-sidebar) .entry-content blockquote.alignright, .page-two-column .entry-content blockquote.alignright, .twentyseventeen-front-page .entry-content blockquote.alignright {
         margin-right: -20%; }
     .has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
-        top: 100px; } }
+        top: 50px; } }
 
 @media screen and (max-width: 48.875em) and (min-width: 48em) {
     .admin-bar .site-navigation-fixed.navigation-top, .admin-bar .site-navigation-hidden.navigation-top {
