@@ -2129,11 +2129,13 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .entry-header .entry-title {
     margin-bottom: 0.25em; }
 
+.entry-title {
+    font-weight: bold;
+    color: #006f9a; }
 .entry-title a {
     color: #333;
     text-decoration: none;
     margin-left: -2px; }
-
 .entry-title:not(:first-child) {
     padding-top: 0; }
 
@@ -2816,10 +2818,13 @@ h2.widget-title {
     width: 100%;
     padding: 5px 5px;
     box-shadow: none; }
-.widget .social-links-widgets li a .icon {
+.widget .social-links-widgets li a i {
     width: 40px;
     height: 30px;
-    padding: 5px; }
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px; }
 .widget .social-links-widgets li a > span {
     display: inline-block;
     height: auto; }

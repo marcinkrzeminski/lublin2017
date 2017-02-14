@@ -35,6 +35,10 @@
 }
 
 .entry-title {
+
+  font-weight: bold;
+  color: $brand-logo-color-blue;
+
   a {
     color: $black3;
     text-decoration: none;

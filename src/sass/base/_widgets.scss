@@ -298,11 +298,14 @@ h2.widget-title {
         padding: 5px 5px;
         box-shadow: none;
 
-        .icon{
+        i{
 
           width: 40px;
           height: 30px;
           padding: 5px;
+          display: inline-block;
+          text-align: center;
+          font-size: 18px;
 
 
 
