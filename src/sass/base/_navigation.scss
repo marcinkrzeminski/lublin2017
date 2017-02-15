@@ -19,11 +19,11 @@
     transition: color 0.2s;
     text-transform: uppercase;
   }
-  .current-menu-item > a, .current_page_item > a {
-    color: $white1;
+  .current-menu-item > a,
+  .current_page_item > a,
+  .current-menu-parent > a{
+    color: $navigation-color-hover;
   }
-
-
 
 
 }
@@ -90,6 +90,8 @@
     li, &:last-child {
       border: 0;
     }
+
+
   }
   a {
     display: block;

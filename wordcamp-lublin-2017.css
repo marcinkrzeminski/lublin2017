@@ -1557,8 +1557,10 @@ a:hover .nav-title {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
     text-transform: uppercase; }
-.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
-    color: #fff; }
+.navigation-top .current-menu-item > a,
+.navigation-top .current_page_item > a,
+.navigation-top .current-menu-parent > a {
+    color: #ffc740; }
 
 .main-navigation {
     clear: both;
@@ -2737,6 +2739,8 @@ h2.widget-title {
     height: 24px;
     top: -2px;
     width: 24px; }
+.search-form .search-submit * {
+    fill: #fff; }
 
 /* Tag cloud widget */
 .tagcloud,
