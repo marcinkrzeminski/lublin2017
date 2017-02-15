@@ -2740,7 +2740,7 @@ h2.widget-title {
     top: -2px;
     width: 24px; }
 .search-form .search-submit * {
-    fill: #fff; }
+    fill: #fff !important; }
 
 /* Tag cloud widget */
 .tagcloud,
