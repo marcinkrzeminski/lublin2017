@@ -2989,7 +2989,7 @@ embed, iframe, object {
 
 .icon {
   display: inline-block;
-  fill: currentColor;
+  fill: #fff;
   height: 1em;
   position: relative;
   /* Align more nicely with capital letters */
