@@ -19,8 +19,8 @@ input {
     background: $white1;
     background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
     border: 1px solid $gray2;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
     display: block;
     padding: 0.7em;
     width: 100%;
@@ -32,8 +32,8 @@ textarea {
   background: $white1;
   background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
   border: 1px solid $gray2;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   display: block;
   padding: 0.7em;
   width: 100%;
@@ -53,8 +53,8 @@ textarea:focus {
 
 select {
   border: 1px solid $gray2;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   height: 3em;
   max-width: 100%;
 }
@@ -71,8 +71,8 @@ input {
 button {
   background-color: $yellow;
   border: 0;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: $white1;
@@ -98,8 +98,8 @@ input {
   &[type="button"], &[type="submit"] {
     background-color: $yellow;
     border: 0;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
     -webkit-box-shadow: none;
     box-shadow: none;
     color: $white1;
