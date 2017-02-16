@@ -1644,10 +1644,9 @@ a:hover .nav-title {
   color: #fff; }
 
 .menu-toggle:focus {
-  background-color: transparent;
+  background: #ffc740;
   -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: thin solid; }
+  box-shadow: none; }
 
 .menu-toggle .icon {
   margin-right: 0.5em;
