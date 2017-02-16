@@ -1244,6 +1244,11 @@ input[type="submit"].secondary:hover, input[type="submit"].secondary:focus {
   color: #333;
   font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif; }
 
+.search-submit .icon-search {
+  color: #fff;
+  fill: #ffffff !important;
+  border: 1px solid red; }
+
 /*--------------------------------------------------------------
 7.0 Formatting
 --------------------------------------------------------------*/
