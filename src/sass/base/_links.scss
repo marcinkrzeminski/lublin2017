@@ -68,8 +68,7 @@ a .nav-title,
 .pagination a,
 .comments-pagination a,
 .site-info a {
-  -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
   text-decoration: none;
 
 }
@@ -91,24 +90,26 @@ a .nav-title,
 .entry-content a {
   &:focus, &:hover {
     color: $black1;
-    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+    text-decoration: underline;
+
   }
 }
 
 .entry-summary a {
   &:focus, &:hover {
+
     color: $black1;
-    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+    text-decoration: underline;
+    
   }
 }
 
 .widget a {
   &:focus, &:hover {
+
     color: $black1;
-    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgba(0, 0, 0, 1);
+    text-decoration: underline;
+
   }
 }
 

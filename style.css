@@ -1349,8 +1349,6 @@ a .nav-title,
 .pagination a,
 .comments-pagination a,
 .site-info a {
-  -webkit-box-shadow: inset 0 -1px 0 white;
-  box-shadow: inset 0 -1px 0 white;
   text-decoration: none; }
 
 .widget .widget-title a, .widget ul li a {
@@ -1361,18 +1359,15 @@ a .nav-title,
 
 .entry-content a:focus, .entry-content a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .entry-summary a:focus, .entry-summary a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .widget a:focus, .widget a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .site-footer .widget-area a:focus, .site-footer .widget-area a:hover {
   color: #000; }
