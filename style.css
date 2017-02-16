@@ -2989,13 +2989,14 @@ embed, iframe, object {
 
 .icon {
   display: inline-block;
-  fill: #fff;
+  fill: #fff !important;
   height: 1em;
   position: relative;
   /* Align more nicely with capital letters */
   top: -0.0625em;
   vertical-align: middle;
-  width: 1em; }
+  width: 1em;
+  border: 1px solid red; }
 
 /*--------------------------------------------------------------
 16.1 Galleries
