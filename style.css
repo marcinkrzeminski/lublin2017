@@ -1173,7 +1173,7 @@ button {
     fill: #fff; }
 
 input[type="button"], input[type="submit"] {
-  background-color: #222;
+  background-color: #ffc740;
   border: 0;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -1206,7 +1206,7 @@ input[type="reset"], input[type="button"].secondary, input[type="reset"].seconda
   color: #222; }
 
 button:hover, button:focus {
-  background: #767676; }
+  background: #c02942; }
 
 input[type="button"]:hover, input[type="button"]:focus {
   background: #767676; }
@@ -1243,11 +1243,6 @@ input[type="submit"].secondary:hover, input[type="submit"].secondary:focus {
 :-ms-input-placeholder {
   color: #333;
   font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif; }
-
-.search-submit .icon-search {
-  color: #fff;
-  fill: #ffffff !important;
-  border: 1px solid red; }
 
 /*--------------------------------------------------------------
 7.0 Formatting

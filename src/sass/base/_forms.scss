@@ -96,7 +96,7 @@ button {
 
 input {
   &[type="button"], &[type="submit"] {
-    background-color: $black2;
+    background-color: $yellow;
     border: 0;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -140,7 +140,7 @@ input {
 
 button {
   &:hover, &:focus {
-    background: $gray1;
+    background: $box-color-4;
   }
 }
 
@@ -205,15 +205,3 @@ input {
   font-family: $font-family-placeholder;
 }
 
-.search-submit{
-
-  .icon-search{
-
-    color: #fff;
-    fill: #ffffff!important;
-    border: 1px solid red;
-
-  }
-
-
-}
