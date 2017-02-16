@@ -193,5 +193,10 @@ embed, iframe, object {
   top: -0.0625em;
   vertical-align: middle;
   width: 1em;
-  border: 1px solid red;
+
+  *{
+
+    fill: #fff!important;
+
+  }
 }

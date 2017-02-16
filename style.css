@@ -2995,8 +2995,9 @@ embed, iframe, object {
   /* Align more nicely with capital letters */
   top: -0.0625em;
   vertical-align: middle;
-  width: 1em;
-  border: 1px solid red; }
+  width: 1em; }
+  .icon * {
+    fill: #fff !important; }
 
 /*--------------------------------------------------------------
 16.1 Galleries
