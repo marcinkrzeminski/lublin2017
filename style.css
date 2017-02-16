@@ -1152,7 +1152,7 @@ input[type="radio"] + label, input[type="checkbox"] + label {
   font-weight: 400; }
 
 button {
-  background-color: #222;
+  background-color: #ffc740;
   border: 0;
   -webkit-border-radius: 2px;
   border-radius: 2px;
