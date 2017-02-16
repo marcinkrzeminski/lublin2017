@@ -1638,9 +1638,10 @@ a:hover .nav-title {
   display: block; }
 
 .menu-toggle:hover {
-  background-color: transparent;
+  background: #ffc740;
   -webkit-box-shadow: none;
-  box-shadow: none; }
+  box-shadow: none;
+  color: #fff; }
 
 .menu-toggle:focus {
   background-color: transparent;
