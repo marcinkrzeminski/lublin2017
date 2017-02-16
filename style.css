@@ -1618,7 +1618,6 @@ a:hover .nav-title {
 
 /* Menu toggle */
 .menu-toggle {
-  background-color: transparent;
   border: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1630,7 +1629,8 @@ a:hover .nav-title {
   line-height: 1.5;
   margin: 1px auto 2px;
   padding: 1em;
-  text-shadow: none; }
+  text-shadow: none;
+  background: #ffc740; }
 
 /* Display the menu toggle when JavaScript is available. */
 .js .menu-toggle,
@@ -2741,8 +2741,6 @@ h2.widget-title {
       height: 24px;
       top: -2px;
       width: 24px; }
-    .search-form .search-submit * {
-      fill: #fff !important; }
 
 /* Tag cloud widget */
 .tagcloud,
