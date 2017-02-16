@@ -18,40 +18,25 @@ a {
 .entry-meta a {
 
   text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+
 }
 
 .page-links a {
-  -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
   text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+
   .page-number {
-    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
     text-decoration: none;
-    -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+
   }
 }
 
 .entry-footer {
   a, .cat-links a, .tags-links a {
-    -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
     text-decoration: none;
-    -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+
   }
 }
 
@@ -59,31 +44,22 @@ a {
 .post-navigation a,
 .logged-in-as a,
 .comment-navigation a {
-  -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
   text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+
 }
 
 .comment-metadata a {
   -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
   text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+
+
   &.comment-edit-link {
     -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
+
     text-decoration: none;
-    -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+
   }
 }
 
@@ -95,10 +71,7 @@ a .nav-title,
   -webkit-box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 1);
   text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out;
+
 }
 
 .widget {

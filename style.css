@@ -1321,66 +1321,28 @@ a {
 
 .entry-title a,
 .entry-meta a {
-  text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out; }
+  text-decoration: none; }
 
 .page-links a {
-  -webkit-box-shadow: inset 0 -1px 0 white;
-  box-shadow: inset 0 -1px 0 white;
-  text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out; }
+  text-decoration: none; }
   .page-links a .page-number {
-    -webkit-box-shadow: inset 0 -1px 0 white;
-    box-shadow: inset 0 -1px 0 white;
-    text-decoration: none;
-    -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out; }
+    text-decoration: none; }
 
 .entry-footer a, .entry-footer .cat-links a, .entry-footer .tags-links a {
-  -webkit-box-shadow: inset 0 -1px 0 white;
-  box-shadow: inset 0 -1px 0 white;
-  text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out; }
+  text-decoration: none; }
 
 .edit-link a,
 .post-navigation a,
 .logged-in-as a,
 .comment-navigation a {
-  -webkit-box-shadow: inset 0 -1px 0 white;
-  box-shadow: inset 0 -1px 0 white;
-  text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out; }
+  text-decoration: none; }
 
 .comment-metadata a {
   -webkit-box-shadow: inset 0 -1px 0 white;
-  box-shadow: inset 0 -1px 0 white;
-  text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out; }
+  text-decoration: none; }
   .comment-metadata a.comment-edit-link {
     -webkit-box-shadow: inset 0 -1px 0 white;
-    box-shadow: inset 0 -1px 0 white;
-    text-decoration: none;
-    -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-    transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out; }
+    text-decoration: none; }
 
 .comment-reply-link,
 a .nav-title,
@@ -1389,11 +1351,7 @@ a .nav-title,
 .site-info a {
   -webkit-box-shadow: inset 0 -1px 0 white;
   box-shadow: inset 0 -1px 0 white;
-  text-decoration: none;
-  -webkit-transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, -webkit-box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out;
-  transition: color 80ms ease-in, box-shadow 130ms ease-in-out, -webkit-box-shadow 130ms ease-in-out; }
+  text-decoration: none; }
 
 .widget .widget-title a, .widget ul li a {
   text-decoration: none; }
