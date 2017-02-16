@@ -1374,105 +1374,85 @@ a .nav-title,
 
 .posts-navigation a:focus, .posts-navigation a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .comment-metadata a:focus, .comment-metadata a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .comment-metadata a.comment-edit-link:focus, .comment-metadata a.comment-edit-link:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .comment-reply-link:focus, .comment-reply-link:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .widget_authors a:focus strong, .widget_authors a:hover strong {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .entry-title a:focus, .entry-title a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .entry-meta a:focus, .entry-meta a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .page-links a:focus .page-number,
 .page-links a:hover .page-number {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .entry-footer a:focus, .entry-footer a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .entry-footer .cat-links a:focus, .entry-footer .cat-links a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .entry-footer .tags-links a:focus, .entry-footer .tags-links a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .post-navigation a:focus, .post-navigation a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .pagination a:not(.prev):not(.next):focus, .pagination a:not(.prev):not(.next):hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .comments-pagination a:not(.prev):not(.next):focus, .comments-pagination a:not(.prev):not(.next):hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .logged-in-as a:focus, .logged-in-as a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 a:focus .nav-title,
 a:hover .nav-title {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .edit-link a:focus, .edit-link a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .site-info a:focus, .site-info a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .widget .widget-title a:focus, .widget .widget-title a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 .widget ul li a:focus, .widget ul li a:hover {
   color: #000;
-  -webkit-box-shadow: inset 0 0 0 transparent, 0 3px 0 black;
-  box-shadow: inset 0 0 0 transparent, 0 3px 0 black; }
+  text-decoration: underline; }
 
 /* Fixes linked images */
 .entry-content a img,
