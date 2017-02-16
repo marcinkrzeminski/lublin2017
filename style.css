@@ -3195,11 +3195,15 @@ embed, iframe, object {
       margin-top: -240px; }
   .has-sidebar:not(.error404) #primary {
     float: left;
-    width: 65%; }
+    width: 66.7%;
+    padding-right: 15px;
+    box-sizing: border-box; }
   .has-sidebar #secondary {
     float: right;
     padding-top: 0;
-    width: 30%; }
+    width: 33.3%;
+    padding-left: 15px;
+    box-sizing: border-box; }
   .error404 #primary {
     float: none; }
   /* Site Branding */
