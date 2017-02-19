@@ -172,8 +172,9 @@ h2.widget-title {
 /* Search */
 
 .search-form {
+
   position: relative;
-  max-width: 95%;
+
   .search-submit {
     bottom: 3px;
     padding: 0.5em 1em;
@@ -186,11 +187,7 @@ h2.widget-title {
       width: 24px;
     }
 
-    *{
 
-      fill: #fff!important;
-
-    }
   }
 }
 

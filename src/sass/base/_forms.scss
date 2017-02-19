@@ -19,8 +19,8 @@ input {
     background: $white1;
     background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
     border: 1px solid $gray2;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
     display: block;
     padding: 0.7em;
     width: 100%;
@@ -32,8 +32,8 @@ textarea {
   background: $white1;
   background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
   border: 1px solid $gray2;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   display: block;
   padding: 0.7em;
   width: 100%;
@@ -53,8 +53,8 @@ textarea:focus {
 
 select {
   border: 1px solid $gray2;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   height: 3em;
   max-width: 100%;
 }
@@ -69,10 +69,10 @@ input {
 }
 
 button {
-  background-color: $black2;
+  background-color: $yellow;
   border: 0;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: $white1;
@@ -86,14 +86,20 @@ button {
   text-shadow: none;
   -webkit-transition: background 0.2s;
   transition: background 0.2s;
+
+  .icon-search{
+
+    fill: #fff;
+
+  }
 }
 
 input {
   &[type="button"], &[type="submit"] {
-    background-color: $black2;
+    background-color: $yellow;
     border: 0;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
     -webkit-box-shadow: none;
     box-shadow: none;
     color: $white1;
@@ -134,7 +140,7 @@ input {
 
 button {
   &:hover, &:focus {
-    background: $gray1;
+    background: $box-color-4;
   }
 }
 
@@ -198,3 +204,4 @@ input {
   color: $black3;
   font-family: $font-family-placeholder;
 }
+
