@@ -14,12 +14,12 @@
 /* Site branding */
 
 .site-branding {
-  padding: 1em 0;
+  padding: 1em 0!important;
   position: relative;
   -webkit-transition: margin-bottom 0.2s;
   transition: margin-bottom 0.2s;
   z-index: 3;
-  height: $top-header-height;
+  height: $top-header-height!important;
   margin: 20px auto!important;
 
   a {
