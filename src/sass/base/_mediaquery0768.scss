@@ -418,19 +418,7 @@
       height: 33%;
     }
   }
-  .admin-bar {
-    &.twentyseventeen-front-page {
-      &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
-        height: $top-header-height-with-admin-bar;
-      }
-    }
-    &.home.blog {
 
-      &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
-        height: $top-header-height-with-admin-bar;
-      }
-    }
-  }
   .panel-content .wrap {
     padding-bottom: 4.5em;
     padding-top: 6em;
