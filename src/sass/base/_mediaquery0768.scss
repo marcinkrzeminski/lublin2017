@@ -98,7 +98,7 @@
     min-height: 200px;
     padding-top: $navigation-top-height + 30px;
   }
-  
+
   .custom-header{
 
     margin-bottom: 0 !important;
@@ -366,43 +366,6 @@
     .icon {
       height: 18px;
       width: 18px;
-    }
-  }
-  /* Front Page */
-  .twentyseventeen-front-page {
-    &.has-header-image .site-branding, &.has-header-video .site-branding {
-      margin-bottom: 70px;
-    }
-  }
-  .home.blog {
-    &.has-header-image .site-branding, &.has-header-video .site-branding {
-      margin-bottom: 70px;
-    }
-  }
-  .twentyseventeen-front-page {
-    &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
-      height: 1200px;
-      height: $top-header-height-home;
-      max-height: 100%;
-      overflow: hidden;
-    }
-  }
-  .home.blog {
-    &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
-      height: 1200px;
-      height: $top-header-height-home;
-      max-height: 100%;
-      overflow: hidden;
-    }
-  }
-  .twentyseventeen-front-page {
-    &.has-header-image .custom-header-media:before, &.has-header-video .custom-header-media:before {
-      height: 33%;
-    }
-  }
-  .home.blog {
-    &.has-header-image .custom-header-media:before, &.has-header-video .custom-header-media:before {
-      height: 33%;
     }
   }
 

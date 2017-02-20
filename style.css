@@ -1855,11 +1855,6 @@ body:not(.title-tagline-hidden) .site-branding-text {
 body:not(.has-header-image):not(.has-header-video) .custom-header-media {
   display: none; }
 
-.has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
-  display: table-cell;
-  height: 100%;
-  vertical-align: bottom; }
-
 /*--------------------------------------------------------------
 13.2 Front Page
 --------------------------------------------------------------*/
@@ -3381,25 +3376,6 @@ embed, iframe, object {
   .menu-scroll-down .icon {
     height: 18px;
     width: 18px; }
-  /* Front Page */
-  .twentyseventeen-front-page.has-header-image .site-branding, .twentyseventeen-front-page.has-header-video .site-branding {
-    margin-bottom: 70px; }
-  .home.blog.has-header-image .site-branding, .home.blog.has-header-video .site-branding {
-    margin-bottom: 70px; }
-  .twentyseventeen-front-page.has-header-image .custom-header-media, .twentyseventeen-front-page.has-header-video .custom-header-media {
-    height: 1200px;
-    height: calc(250px + 70px);
-    max-height: 100%;
-    overflow: hidden; }
-  .home.blog.has-header-image .custom-header-media, .home.blog.has-header-video .custom-header-media {
-    height: 1200px;
-    height: calc(250px + 70px);
-    max-height: 100%;
-    overflow: hidden; }
-  .twentyseventeen-front-page.has-header-image .custom-header-media:before, .twentyseventeen-front-page.has-header-video .custom-header-media:before {
-    height: 33%; }
-  .home.blog.has-header-image .custom-header-media:before, .home.blog.has-header-video .custom-header-media:before {
-    height: 33%; }
   .panel-content .wrap {
     padding-bottom: 4.5em;
     padding-top: 6em; }
@@ -3654,9 +3630,7 @@ embed, iframe, object {
   .has-sidebar .entry-content blockquote.alignleft {
     margin-left: -20%; }
   .blog:not(.has-sidebar) .entry-content blockquote.alignright, .archive:not(.has-sidebar) .entry-content blockquote.alignright, .page-two-column .entry-content blockquote.alignright, .twentyseventeen-front-page .entry-content blockquote.alignright {
-    margin-right: -20%; }
-  .has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
-    top: 50px; } }
+    margin-right: -20%; } }
 
 @media screen and (max-width: 48.875em) and (min-width: 48em) {
   .admin-bar .site-navigation-fixed.navigation-top, .admin-bar .site-navigation-hidden.navigation-top {
