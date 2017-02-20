@@ -1674,7 +1674,7 @@ body {
 
 /* Site branding */
 .site-branding {
-  padding: 1em 0 !important;
+  padding: 1em 0;
   position: relative;
   -webkit-transition: margin-bottom 0.2s;
   transition: margin-bottom 0.2s;
@@ -1717,10 +1717,10 @@ body.has-header-image .site-description, body.has-header-video .site-description
   display: block;
   margin: 0px auto;
   vertical-align: middle;
-  width: 140px; }
+  width: 140px !important; }
   .custom-logo-link img {
     display: inline-block;
-    max-height: 140px;
+    max-height: 140px !important;
     width: auto; }
 
 .custom-logo-link a:hover, .custom-logo-link a:focus {
