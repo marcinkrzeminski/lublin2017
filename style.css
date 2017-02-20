@@ -3211,17 +3211,6 @@ embed, iframe, object {
     margin-bottom: 0;
     min-height: 200px;
     padding-top: 100px; }
-  .has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
-    top: 80px;
-    display: block;
-    left: 0;
-    height: auto;
-    padding-top: 0;
-    position: absolute;
-    width: 100%; }
-  .has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
-    display: block;
-    height: auto; }
   .custom-header {
     margin-bottom: 0 !important; }
   .custom-header-media {
