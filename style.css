@@ -1805,11 +1805,6 @@ body:not(.title-tagline-hidden) .site-branding-text {
 .admin-bar .wp-custom-header-video-button {
   top: 62px; }
 
-.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
-  bottom: 0;
-  position: absolute;
-  top: auto; }
-
 /* For browsers that support 'object-fit' */
 @supports (object-fit: cover) {
   .has-header-image .custom-header-media img {
@@ -1834,7 +1829,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
     -webkit-transform: none;
     transform: none;
     width: 100%; }
-  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+  .has-header-image .custom-header-media img {
     height: 100%;
     left: 0;
     -o-object-fit: cover;
@@ -3210,7 +3205,7 @@ embed, iframe, object {
   .home.blog.has-header-image .custom-header-media, .home.blog.has-header-video .custom-header-media {
     height: 0;
     position: relative; }
-  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media, .has-header-video:not(.twentyseventeen-front-page):not(.home) .custom-header-media {
+  .has-header-image .custom-header-media, .has-header-video .custom-header-media {
     bottom: 0;
     height: calc(250px+ 70px);
     left: 0;

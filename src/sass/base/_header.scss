@@ -186,12 +186,6 @@ body:not(.title-tagline-hidden) .site-branding-text {
   top: 62px;
 }
 
-.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
-  bottom: 0;
-  position: absolute;
-  top: auto;
-
-}
 
 /* For browsers that support 'object-fit' */
 @supports (object-fit: cover) {
@@ -221,7 +215,7 @@ body:not(.title-tagline-hidden) .site-branding-text {
       width: 100%;
     }
   }
-  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+  .has-header-image .custom-header-media img {
     height: 100%;
     left: 0;
     -o-object-fit: cover;

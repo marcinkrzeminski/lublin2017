@@ -122,7 +122,7 @@
       position: relative;
     }
   }
-  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media, .has-header-video:not(.twentyseventeen-front-page):not(.home) .custom-header-media {
+  .has-header-image .custom-header-media, .has-header-video .custom-header-media {
     bottom: 0;
     height: $top-header-height;
     left: 0;
