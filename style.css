@@ -1679,7 +1679,7 @@ body {
   -webkit-transition: margin-bottom 0.2s;
   transition: margin-bottom 0.2s;
   z-index: 3;
-  height: calc(250px+ 70px) !important;
+  height: calc(250px+ 70px);
   margin: 20px auto !important; }
   .site-branding a {
     text-decoration: none;
