@@ -1671,8 +1671,6 @@ body {
 .site-header {
   background-color: #006f99;
   position: relative; }
-  .site-header img {
-    display: none !important; }
 
 /* Site branding */
 .site-branding {
@@ -1741,6 +1739,8 @@ body:not(.title-tagline-hidden) .site-branding-text {
   right: 0;
   top: 0;
   width: 100%; }
+  .custom-header-media img {
+    display: none !important; }
 
 .has-header-image .custom-header-media img {
   position: fixed;

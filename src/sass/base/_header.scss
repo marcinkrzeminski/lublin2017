@@ -10,11 +10,6 @@
   background-color: $brand-logo-color-blue;
   position: relative;
 
-  img{
-
-    display: none!important;
-
-  }
 }
 
 /* Site branding */
@@ -118,6 +113,12 @@ body:not(.title-tagline-hidden) .site-branding-text {
   right: 0;
   top: 0;
   width: 100%;
+
+  img{
+
+    display: none!important;
+
+  }
 
 }
 
