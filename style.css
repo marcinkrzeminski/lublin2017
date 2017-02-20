@@ -1313,7 +1313,7 @@ td:last-child {
 10.0 Links
 --------------------------------------------------------------*/
 a {
-  color: #006f9a;
+  color: #006f99;
   text-decoration: none; }
   a:hover, a:active {
     color: #000;
@@ -1669,7 +1669,7 @@ body {
   position: relative; }
 
 .site-header {
-  background-color: #fafafa;
+  background-color: #006f99;
   position: relative; }
 
 /* Site branding */
@@ -1687,6 +1687,8 @@ body {
     transition: opacity 0.2s; }
     .site-branding a:hover, .site-branding a:focus {
       opacity: 0.7; }
+  .site-branding img {
+    display: none; }
 
 .site-title {
   display: none; }
@@ -1920,7 +1922,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 /* Frontpage Components */
 .column-frontpage-main-info {
   height: 200px;
-  background: #006f9a;
+  background: #006f99;
   color: #fff;
   position: relative;
   overflow: hidden; }
@@ -1987,7 +1989,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
         display: block;
         padding: 5px 10px;
         background: #ffc740;
-        color: #006f9a; }
+        color: #006f99; }
       .column-frontpage-main-info a > span img {
         border: none;
         box-shadow: none; }
@@ -2040,7 +2042,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 
 .entry-title {
   font-weight: bold;
-  color: #006f9a; }
+  color: #006f99; }
   .entry-title a {
     color: #333;
     text-decoration: none;
@@ -2170,7 +2172,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 /* More tag */
 .entry-content .more-link {
-  color: #006f9a;
+  color: #006f99;
   text-align: right; }
 
 .entry-content .more-link:before {
@@ -2198,7 +2200,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .archive .post .entry-title {
   font-size: 40px; }
   .archive .post .entry-title a {
-    color: #006f9a; }
+    color: #006f99; }
 
 .single-featured-image-header {
   background-color: #fafafa;
