@@ -1916,12 +1916,6 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .home .entry-header {
   display: none; }
 
-.home .custom-logo-link {
-  width: 170px;
-  margin-top: 40px; }
-  .home .custom-logo-link img {
-    max-height: 170px; }
-
 .home .site-main h2 {
   color: #3d3d3c; }
 
