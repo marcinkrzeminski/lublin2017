@@ -3399,12 +3399,12 @@ embed, iframe, object {
     margin-bottom: 70px; }
   .twentyseventeen-front-page.has-header-image .custom-header-media, .twentyseventeen-front-page.has-header-video .custom-header-media {
     height: 1200px;
-    height: calc(90vh + 70px);
+    height: calc(250px + 70px);
     max-height: 100%;
     overflow: hidden; }
   .home.blog.has-header-image .custom-header-media, .home.blog.has-header-video .custom-header-media {
     height: 1200px;
-    height: calc(90vh + 70px);
+    height: calc(250px + 70px);
     max-height: 100%;
     overflow: hidden; }
   .twentyseventeen-front-page.has-header-image .custom-header-media:before, .twentyseventeen-front-page.has-header-video .custom-header-media:before {
