@@ -1715,7 +1715,7 @@ body.has-header-image .site-description, body.has-header-video .site-description
 
 .custom-logo-link {
   display: block;
-  margin: 0px auto;
+  margin: 0 0;
   vertical-align: middle;
   width: 140px !important; }
   .custom-logo-link img {
