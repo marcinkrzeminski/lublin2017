@@ -1707,11 +1707,9 @@ body.has-header-image .site-title, body.has-header-video .site-title, body.has-h
 body.has-header-image .site-description, body.has-header-video .site-description {
   display: block;
   margin: 10px 0;
-  width: 350px;
   max-width: 100%;
   padding: 3px 10px;
-  color: #fff;
-  text-align: center; }
+  color: #fff; }
 
 .custom-logo-link {
   display: block;
