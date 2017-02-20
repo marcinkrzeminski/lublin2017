@@ -3412,9 +3412,9 @@ embed, iframe, object {
   .home.blog.has-header-image .custom-header-media:before, .home.blog.has-header-video .custom-header-media:before {
     height: 33%; }
   .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media {
-    height: calc(250px + 70px - 32px); }
+    height: calc(250px + 70px + 32px); }
   .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
-    height: calc(250px + 70px - 32px); }
+    height: calc(250px + 70px + 32px); }
   .panel-content .wrap {
     padding-bottom: 4.5em;
     padding-top: 6em; }
