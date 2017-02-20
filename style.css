@@ -1671,6 +1671,8 @@ body {
 .site-header {
   background-color: #006f99;
   position: relative; }
+  .site-header img {
+    display: none !important; }
 
 /* Site branding */
 .site-branding {
@@ -1687,8 +1689,6 @@ body {
     transition: opacity 0.2s; }
     .site-branding a:hover, .site-branding a:focus {
       opacity: 0.7; }
-  .site-branding img {
-    display: none; }
 
 .site-title {
   display: none; }

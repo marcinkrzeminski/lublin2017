@@ -9,6 +9,12 @@
 .site-header {
   background-color: $brand-logo-color-blue;
   position: relative;
+
+  img{
+
+    display: none!important;
+
+  }
 }
 
 /* Site branding */
@@ -31,11 +37,7 @@
     }
   }
 
-  img{
 
-    display: none;
-
-  }
 }
 
 .site-title {
