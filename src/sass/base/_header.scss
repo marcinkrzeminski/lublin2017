@@ -20,7 +20,7 @@
   transition: margin-bottom 0.2s;
   z-index: 3;
   height: $top-header-height;
-  margin: 20px auto;
+  margin: 20px auto!important;
 
   a {
     text-decoration: none;
@@ -84,12 +84,7 @@ body {
   }
 }
 
-body.home.title-tagline-hidden {
-  &.has-header-image .custom-logo-link img, &.has-header-video .custom-logo-link img {
-    max-height: 200px;
-    max-width: 100%;
-  }
-}
+
 
 .custom-logo-link a {
   &:hover, &:focus {

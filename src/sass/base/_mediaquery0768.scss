@@ -110,18 +110,8 @@
     position: relative;
 
   }
-  .twentyseventeen-front-page {
-    &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
-      height: 0;
-      position: relative;
-    }
-  }
-  .home.blog {
-    &.has-header-image .custom-header-media, &.has-header-video .custom-header-media {
-      height: 0;
-      position: relative;
-    }
-  }
+
+
   .has-header-image .custom-header-media, .has-header-video .custom-header-media {
     bottom: 0;
     height: $top-header-height;
