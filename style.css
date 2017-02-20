@@ -3195,13 +3195,13 @@ embed, iframe, object {
       margin-top: -240px; }
   .has-sidebar:not(.error404) #primary {
     float: left;
-    width: 66.7%;
+    width: 66.66667%;
     padding-right: 15px;
     box-sizing: border-box; }
   .has-sidebar #secondary {
     float: right;
     padding-top: 0;
-    width: 33.3%;
+    width: 33.33333%;
     padding-left: 15px;
     box-sizing: border-box; }
   .error404 #primary {
@@ -3677,7 +3677,9 @@ embed, iframe, object {
   .admin-bar .site-navigation-fixed.navigation-top, .admin-bar .site-navigation-hidden.navigation-top {
     top: 46px; }
   .wrap {
-    padding: 0 25px; }
+    padding: 0 25px; } }
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   .home .wrap {
     padding: 0; }
   .navigation-top {
