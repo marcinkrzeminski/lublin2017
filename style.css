@@ -3569,7 +3569,7 @@ embed, iframe, object {
 @media screen and (min-width: 67em) {
   /* Navigation */
   .navigation-top .wrap {
-    padding: 0.75em 0; }
+    padding: 0.65em 0 0.75em 0; }
   .navigation-top nav {
     margin-left: 0; }
   /* Sticky posts */
