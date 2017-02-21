@@ -1715,10 +1715,10 @@ body.has-header-image .site-description, body.has-header-video .site-description
   display: block;
   margin: 0 0;
   vertical-align: middle;
-  width: 140px !important; }
+  width: 200px !important; }
   .custom-logo-link img {
     display: inline-block;
-    max-height: 140px !important;
+    max-height: 200px !important;
     width: auto; }
 
 .custom-logo-link a:hover, .custom-logo-link a:focus {
