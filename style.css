@@ -1680,7 +1680,7 @@ body {
   transition: margin-bottom 0.2s;
   z-index: 3;
   height: calc(250px+ 70px);
-  margin: 20px auto !important; }
+  margin: 20px auto 0 auto !important; }
   .site-branding a {
     text-decoration: none;
     -webkit-transition: opacity 0.2s;
