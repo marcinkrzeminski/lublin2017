@@ -3608,9 +3608,9 @@ embed, iframe, object {
   .wrap {
     padding: 0 25px; } }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 12004px) and (min-width: 768px) {
   .home .wrap {
-    padding: 0; }
+    padding: 0 2em; }
   .navigation-top {
     padding: 0 25px;
     overflow: hidden;
