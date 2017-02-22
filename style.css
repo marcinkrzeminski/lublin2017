@@ -1916,6 +1916,9 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .home .site-main h2 {
   color: #3d3d3c; }
 
+.home .page-header .page-title {
+  display: none; }
+
 /* Frontpage Components */
 .column-frontpage-main-info {
   height: 200px;
