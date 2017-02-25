@@ -22,14 +22,17 @@
 }
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-  color: $black2;
-  font-size: 30px;
-  font-size: 1.875rem;
+  font-size: 26px;
+  font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  text-align:center;
+  color: $header-color-1;
 }
-
+.entry-header{
+  text-align:center;
+}
 .entry-header .entry-title {
   margin-bottom: 0.25em;
 }
@@ -250,7 +253,9 @@ body:not(.twentyseventeen-front-page) {
 
     .entry-title{
 
-      font-size: 40px;
+      font-size: 30px;
+      text-align:center;
+
 
       a{
 
@@ -416,4 +421,9 @@ body:not(.twentyseventeen-front-page) {
   .nav-next .nav-title .nav-title-icon-wrapper {
     margin-left: 0.5em;
   }
+}
+
+#content div.sharedaddy, #main div.sharedaddy, div.sharedaddy{
+  text-align:center;
+  padding-top:20px;
 }

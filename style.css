@@ -1675,21 +1675,22 @@ body {
 /* Site branding */
 .site-branding {
   padding: 1em 0;
-  position: relative;
+  background: url("/wp-content/uploads/2017/02/banner2.jpg") no-repeat center center;
+  background-size: cover;
   -webkit-transition: margin-bottom 0.2s;
   transition: margin-bottom 0.2s;
   z-index: 3;
-  height: calc(250px+ 70px);
+  height: 400px;
   margin: 20px auto 0 auto !important; }
   .site-branding a {
     text-decoration: none;
     -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s; }
     .site-branding a:hover, .site-branding a:focus {
-      opacity: 0.7; }
+      opacity: 1; }
 
-.site-title {
-  display: none; }
+.home .site-branding {
+  height: 500px; }
 
 body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a {
   color: #fff; }
@@ -1709,11 +1710,11 @@ body.has-header-image .site-description, body.has-header-video .site-description
   margin: 10px 0;
   max-width: 100%;
   padding: 3px 10px;
-  color: #fff; }
+  color: #ffc740; }
 
 .custom-logo-link {
   display: block;
-  margin: 0 0;
+  margin: 0 auto;
   vertical-align: middle;
   width: 200px !important; }
   .custom-logo-link img {
@@ -1721,12 +1722,14 @@ body.has-header-image .site-description, body.has-header-video .site-description
     max-height: 200px !important;
     width: auto; }
 
-.custom-logo-link a:hover, .custom-logo-link a:focus {
-  opacity: 0.9; }
-
 body:not(.title-tagline-hidden) .site-branding-text {
   display: block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  text-align: center;
+  color: #ffc740; }
+
+.site-branding-text .site-title {
+  display: none; }
 
 .custom-header {
   position: relative; }
@@ -1919,6 +1922,9 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .home .page-header .page-title {
   display: none; }
 
+.home .entry-header {
+  display: none; }
+
 /* Frontpage Components */
 .column-frontpage-main-info {
   height: 200px;
@@ -1927,7 +1933,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
   position: relative;
   overflow: hidden; }
   .column-frontpage-main-info.column-frontpage-variant-1 {
-    background: #E0C61A; }
+    background: #ffc740; }
   .column-frontpage-main-info .dashicons {
     display: block;
     text-align: center;
@@ -1947,10 +1953,12 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
     text-transform: uppercase;
     box-shadow: none;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden; }
+    overflow: hidden;
+    transition: transform .2s ease-in-out; }
     .column-frontpage-main-info a:hover {
       box-shadow: none;
-      color: #ededed; }
+      color: #ededed;
+      text-decoration: none; }
       .column-frontpage-main-info a:hover:before {
         -ms-transform: rotate(0deg);
         /* IE 9 */
@@ -1998,8 +2006,24 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .twentyseventeen-panel h2 {
   text-align: center; }
 
-.twentyseventeen-panel.post-12 {
-  background: #f1f1f1; }
+.twentyseventeen-panel.post-281 {
+  background: #ddd; }
+
+a.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  background: #0085ba; }
+  a.btn :hover {
+    text-decoration: none !important;
+    color: #fff  !important; }
+
+a.btn-yellow {
+  background: #ffc740; }
+
+a.btn-red {
+  background: #c02942; }
 
 /*--------------------------------------------------------------
 13.3 Regular Content
@@ -2030,12 +2054,16 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
   width: 20px; }
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-  color: #222;
-  font-size: 30px;
-  font-size: 1.875rem;
+  font-size: 26px;
+  font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: 0.14em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center;
+  color: #3d3d3c; }
+
+.entry-header {
+  text-align: center; }
 
 .entry-header .entry-title {
   margin-bottom: 0.25em; }
@@ -2198,7 +2226,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
   text-align: center; }
 
 .archive .post .entry-title {
-  font-size: 40px; }
+  font-size: 30px;
+  text-align: center; }
   .archive .post .entry-title a {
     color: #006f99; }
 
@@ -2324,6 +2353,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .nav-links .nav-next .nav-title .nav-title-icon-wrapper {
   margin-left: 0.5em; }
 
+#content div.sharedaddy, #main div.sharedaddy, div.sharedaddy {
+  text-align: center;
+  padding-top: 20px; }
+
 /*--------------------------------------------------------------
 13.5 Pages
 --------------------------------------------------------------*/
@@ -2360,11 +2393,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .site-footer {
   background-color: #ddd; }
   .site-footer .wrap {
-    padding-bottom: 1.5em;
-    padding-top: 2em; }
+    padding-top: 0;
+    max-width: 100%; }
   .site-footer .widget-area {
-    padding-bottom: 2em;
-    padding-top: 2em; }
+    padding: 0em; }
 
 .social-navigation {
   font-size: 16px;
@@ -2407,6 +2439,60 @@ body:not(.twentyseventeen-front-page) .entry-header {
     visibility: hidden;
     height: 0;
     width: 100%; }
+
+.footer-widget-1 {
+  color: #fff;
+  background-color: #464646;
+  padding-top: 30px;
+  text-align: center; }
+  .footer-widget-1 h2.widget-title {
+    color: #ffc740;
+    font-size: 26px;
+    font-size: 1.5rem;
+    margin-bottom: 30px; }
+
+.jetpack_subscription_widget {
+  max-width: 700px;
+  margin: 0 auto; }
+  .jetpack_subscription_widget form {
+    max-width: 600px;
+    margin: 0 auto; }
+  .jetpack_subscription_widget #subscribe-email {
+    display: inline-block;
+    width: 60%;
+    margin: 0; }
+    .jetpack_subscription_widget #subscribe-email input {
+      width: 100%; }
+  .jetpack_subscription_widget #subscribe-submit {
+    display: inline-block;
+    width: 35%;
+    margin: 0; }
+    .jetpack_subscription_widget #subscribe-submit input {
+      padding: 0.7em 0;
+      width: 100%;
+      font-size: 16px;
+      font-size: 1rem;
+      line-height: 1.8;
+      border: 1px solid #ffc740; }
+  .jetpack_subscription_widget #subscribe-text p {
+    font-size: 1rem; }
+
+.footer-widget-2 {
+  padding-top: 30px;
+  text-align: center; }
+  .footer-widget-2 h2.widget-title {
+    display: none; }
+  .footer-widget-2 ul {
+    margin: 0; }
+    .footer-widget-2 ul li {
+      display: inline-block;
+      margin: 0 5px; }
+  .footer-widget-2 .section {
+    padding-bottom: 0px; }
+
+.site-info {
+  text-align: center;
+  width: 100%; }
 
 /*--------------------------------------------------------------
 14.0 Comments
@@ -2717,7 +2803,7 @@ h2.widget-title {
 
 /* Social media menu */
 .widget .social-links-widgets {
-  width: 95%; }
+  width: 100%; }
   .widget .social-links-widgets li {
     border: none;
     margin-bottom: 4px; }
@@ -2750,9 +2836,6 @@ h2.widget-title {
       background: #00aedd; }
     .widget .social-links-widgets li.wc-instagram-link a {
       background: #de3868; }
-
-.widget .jetpack_subscription_widget form {
-  width: 95%; }
 
 /*--------------------------------------------------------------
 16.0 Media
@@ -3145,9 +3228,12 @@ embed, iframe, object {
 @media screen and (min-width: 48em) {
   /* Typography */
   body, button, input, select, textarea {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 1.8; }
+  button, input, select, textarea {
+    font-size: 16px;
+    font-size: 1rem; }
   .entry-content blockquote.alignleft, .entry-content blockquote.alignright {
     font-size: 13px;
     font-size: 0.8125rem; }
@@ -3156,17 +3242,19 @@ embed, iframe, object {
     max-width: 1170px;
     padding-left: 0;
     padding-right: 0; }
+  .site-content .wrap {
+    max-width: 800px; }
   .home .panel-content .wrap {
     max-width: 100%;
     padding: 40px 0;
     margin: 0; }
   .home .site-content-contain .site-main h2 {
-    font-size: 40px;
-    margin-bottom: 50px; }
+    font-size: 26px;
+    margin-bottom: 35px; }
   .home .site-content-contain .site-main article {
     overflow: visible; }
     .home .site-content-contain .site-main article:first-child .wrap {
-      margin-top: -240px; }
+      margin-top: -140px; }
   .has-sidebar:not(.error404) #primary {
     float: left;
     width: 66.66667%;
@@ -3184,14 +3272,14 @@ embed, iframe, object {
   .site-branding {
     margin-bottom: 0;
     min-height: 200px;
-    padding-top: 100px; }
+    padding-top: 80px; }
   .custom-header {
     margin-bottom: 0 !important; }
   .custom-header-media {
     position: relative; }
   .has-header-image .custom-header-media, .has-header-video .custom-header-media {
     bottom: 0;
-    height: calc(250px+ 70px);
+    height: 400px;
     left: 0;
     position: absolute;
     right: 0;
@@ -3229,7 +3317,9 @@ embed, iframe, object {
       margin-left: -1.25em; }
     .navigation-top .ticket-label {
       float: right;
-      background: red; }
+      background: #c02942; }
+      .navigation-top .ticket-label a:hover {
+        color: #fff; }
   .site-navigation-fixed.navigation-top {
     top: 0;
     position: fixed;
@@ -3353,7 +3443,7 @@ embed, iframe, object {
     padding-bottom: 4.5em;
     padding-top: 6em; }
   .panel-image {
-    height: calc(250px+ 70px);
+    height: 400px;
     max-height: 1200px; }
   /* With panel images 100% of the screen height, we're going to fix the background image where supported to create a parallax-like effect. */
   .background-fixed .panel-image {
@@ -3380,14 +3470,14 @@ embed, iframe, object {
   .panel-content .recent-posts .entry-header {
     margin-bottom: 1.5em; }
   .page .panel-content .recent-posts .entry-title {
-    font-size: 46px;
-    font-size: 2.125rem; }
+    font-size: 26px;
+    font-size: 1.5rem; }
   /* Posts */
   .site-content {
     padding: 5.5em 0 0; }
   .single-post .entry-title, .page .entry-title {
-    font-size: 46px;
-    font-size: 2.525rem; }
+    font-size: 26px;
+    font-size: 1.5rem; }
   .comments-pagination {
     clear: both; }
   .post-navigation {
@@ -3522,8 +3612,8 @@ embed, iframe, object {
       float: right;
       width: 100%; }
     .site-footer .widget-column .widget {
-      width: 33%;
-      float: left; }
+      width: 100%;
+      float: none; }
   .social-navigation {
     clear: left;
     float: left;
@@ -3532,7 +3622,7 @@ embed, iframe, object {
   .site-info {
     float: left;
     padding: 0.7em 0 0;
-    width: 58%; }
+    width: 100%; }
   .social-navigation + .site-info {
     margin-left: 6%; }
   .site-info .sep {

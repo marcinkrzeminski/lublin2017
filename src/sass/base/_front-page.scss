@@ -100,6 +100,7 @@
 
       color: $header-color-1;
 
+
     }
 
   }
@@ -112,6 +113,9 @@
 
     }
 
+  }
+  .entry-header{
+   display:none
   }
 
 
@@ -132,7 +136,7 @@
 
   &.column-frontpage-variant-1{
 
-    background: $box-color-1;
+    background: $yellow;
 
   }
 
@@ -170,11 +174,13 @@
     box-shadow: none;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
+    transition: transform .2s ease-in-out;
 
     &:hover{
 
       box-shadow: none;
       color: darken($white2, 5%);
+      text-decoration:none;
 
       &:before{
 
@@ -251,11 +257,28 @@
 
   }
 
-  &.post-12{
+  &.post-281{
 
-    background: $silver1;
+    background: $silver3;
 
   }
 
 }
 
+ a.btn{
+  display:inline-block;
+  padding:5px 10px;
+  text-decoration:none;
+  color: #fff;
+  background:$blue1;
+  :hover{
+    text-decoration:none !important;
+    color: #fff  !important;
+  }
+}
+  a.btn-yellow{
+    background:$yellow;
+  }
+  a.btn-red{
+    background:$red;
+  }
