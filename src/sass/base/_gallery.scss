@@ -6,8 +6,12 @@
   display: inline-block;
   text-align: left;
   vertical-align: top;
-  margin: 0 0 1.5em;
+  margin: 0em;
+  padding:0;
   width: 50%;
+  img{
+  display:block;
+  }
 }
 
 .gallery-columns-1 .gallery-item {
