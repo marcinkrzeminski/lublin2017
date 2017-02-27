@@ -103,7 +103,7 @@
   .site-branding {
     margin-bottom: 0;
     min-height: 200px;
-    padding-top: $navigation-top-height + 10px;
+    padding-top: $navigation-top-height + 25px;
   }
 
   .custom-header{
@@ -177,8 +177,20 @@
 
       float: right;
       background: #c02942;
-      a:hover{
-      color:#fff;
+
+      &:hover,
+      &:focus{
+
+        background: $yellow;
+        color: $blue1;
+
+      }
+
+      a:hover,
+      a:focus{
+
+        color:$blue1;
+
       }
 
     }

@@ -276,13 +276,18 @@
 
  a.btn{
   display:inline-block;
-  padding:5px 10px;
+  padding:5px 15px;
   text-decoration:none;
   color: #fff;
   background:$blue1;
-  :hover{
+   text-transform: uppercase;
+   transition: all 0.3s ease 0s;
+
+  &:hover,
+  &:active{
     text-decoration:none !important;
-    color: #fff  !important;
+    text-shadow: none;
+    color: #fff;
   }
 }
   a.btn-yellow{
@@ -290,4 +295,12 @@
   }
   a.btn-red{
     background:$red;
+
+    &:hover,
+    &:focus{
+
+      background:$yellow;
+      color: $blue1;
+
+    }
   }
