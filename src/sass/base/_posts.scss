@@ -22,13 +22,13 @@
 }
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-  font-size: 26px;
-  font-size: 1.5rem;
+  font-size: 28px;
+  font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-align:center;
-  color: $header-color-1;
+  color: $navigation-background-color; 
 }
 .entry-header{
   text-align:center;
@@ -40,12 +40,15 @@
 .entry-title {
 
   font-weight: bold;
-  color: $brand-logo-color-blue;
-
+  color: $navigation-background-color;
+    letter-spacing: 0.05em;
   a {
-    color: $black3;
+    color: $navigation-background-color;
     text-decoration: none;
-    margin-left: -2px;
+    &:hover{
+     text-decoration: none !important;
+     color: $navigation-background-color !important; 
+    }
   }
   &:not(:first-child) {
     padding-top: 0;
@@ -244,7 +247,7 @@ body:not(.twentyseventeen-front-page) {
 
     font-size: 20px;
     font-weight: 400;
-    color: $gray1;
+    color: $navigation-background-color;
     text-align: center;
 
   }
@@ -253,13 +256,14 @@ body:not(.twentyseventeen-front-page) {
 
     .entry-title{
 
-      font-size: 30px;
+      font-size: 28px;
+      font-size: 1.6rem;
       text-align:center;
 
 
       a{
 
-        color:$brand-logo-color-blue;
+        color:$navigation-background-color;
 
       }
 
@@ -273,6 +277,7 @@ body:not(.twentyseventeen-front-page) {
 .single-featured-image-header {
   background-color: $white2;
   border-bottom: 1px solid $silver2;
+  display:none;
   img {
     display: block;
     margin: auto;
@@ -305,7 +310,7 @@ body:not(.twentyseventeen-front-page) {
   margin-top: 2em;
   padding: 2em 0;
   .cat-links, .tags-links {
-    display: block;
+
     font-size: 11px;
     font-size: 0.6875rem;
     font-weight: 800;

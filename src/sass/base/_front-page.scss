@@ -229,9 +229,10 @@
         top: 0;
         right: 0;
         display: block;
-        padding: 5px 10px;
+        padding: 0px 10px;
         background: $yellow;
-        color: $brand-logo-color-blue
+        color: $navigation-background-color;
+        font-size:70%;
 
       }
 
@@ -276,18 +277,20 @@
 
  a.btn{
   display:inline-block;
-  padding:5px 15px;
+  padding:7px 25px;
   text-decoration:none;
   color: #fff;
   background:$blue1;
    text-transform: uppercase;
    transition: all 0.3s ease 0s;
+   font-size:1rem;
 
   &:hover,
   &:active{
     text-decoration:none !important;
     text-shadow: none;
-    color: #fff;
+    background:$yellow;
+    color:  $navigation-background-color;
   }
 }
   a.btn-yellow{
@@ -300,7 +303,7 @@
     &:focus{
 
       background:$yellow;
-      color: $blue1;
+      color:  $navigation-background-color;
 
     }
   }

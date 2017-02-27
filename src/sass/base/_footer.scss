@@ -71,12 +71,15 @@
 .footer-widget-1 {
   color: $white1;
   background-color: $navigation-background-color;
+  background-image:url('/wp-content/uploads/2017/02/bg-newsletter.png');
+  background-repeat:no-repeat;
+  background-position: left bottom;
   padding-top: 30px;
   text-align: center;
   h2.widget-title {
     color: $yellow;
-    font-size: 26px;
-    font-size: 1.5rem;
+    font-size: 20px;
+    font-size: 1.3rem;
     margin-bottom: 30px;
   }
 }
@@ -121,7 +124,13 @@
       font-size: 1rem;
       line-height: 1.8;
       height: 50px;
-
+      font-weight:400;
+      text-transform: uppercase;
+      background: $brand-logo-color-blue;
+      &:hover{
+      background:$yellow;
+      color:  $navigation-background-color !important; 
+      }
     }
   }
   #subscribe-text p {
@@ -142,8 +151,8 @@
       margin: 0 5px;
     }
   }
-  .section {
-    padding-bottom: 0px;
+  section.widget {
+    padding-bottom: 0px !important;
   }
 }
 

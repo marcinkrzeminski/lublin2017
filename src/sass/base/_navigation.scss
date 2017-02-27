@@ -110,7 +110,7 @@
   border: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: $black2;
+  color: $navigation-background-color;
   display: none;
   font-size: 14px;
   font-size: 0.875rem;
@@ -134,17 +134,23 @@
     background: $yellow;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #fff;
+    color: $navigation-background-color;
   }
   &:focus {
     background: $yellow;
     -webkit-box-shadow: none;
     box-shadow: none;
+    color: $navigation-background-color;
 
   }
   .icon {
     margin-right: 0.5em;
     top: -2px;
+    color:$navigation-background-color;
+    *{
+    fill: $navigation-background-color !important;
+    }
+    
   }
 }
 

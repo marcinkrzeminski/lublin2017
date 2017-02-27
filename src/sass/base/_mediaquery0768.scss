@@ -182,14 +182,14 @@
       &:focus{
 
         background: $yellow;
-        color: $blue1;
+        color: $navigation-background-color !important;
 
       }
 
       a:hover,
       a:focus{
 
-        color:$blue1;
+         color: $navigation-background-color !important;
 
       }
 
@@ -428,8 +428,8 @@
     margin-bottom: 1.5em;
   }
   .page .panel-content .recent-posts .entry-title {
-    font-size: 26px;
-    font-size: 1.5rem;
+    font-size: 28px;
+    font-size: 1.6rem;
   }
   /* Posts */
   .site-content {
@@ -465,10 +465,7 @@
     width: 32px;
   }
   body {
-    &:not(.has-sidebar):not(.page-one-column) .page-header, &.has-sidebar.error404 #primary .page-header {
-      float: left;
-      width: 36%;
-    }
+
     &.page-two-column {
       &:not(.archive) #primary .entry-header, &.archive:not(.has-sidebar) #primary .page-header {
         float: left;
@@ -476,10 +473,7 @@
       }
     }
   }
-  .blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article {
-    float: right;
-    width: 58%;
-  }
+
   .error404 {
     &:not(.has-sidebar) #primary .page-content, &.has-sidebar #primary .page-content {
       float: right;
@@ -628,6 +622,10 @@
       &.footer-widget-1 {
         float: left;
         width: 100%;
+        h2.widget-title {
+          font-size: 26px;
+          font-size: 1.5rem;
+        }
       }
       &.footer-widget-2 {
         float: right;
