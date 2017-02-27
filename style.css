@@ -3131,7 +3131,8 @@ embed, iframe, object {
 
 .wc-text-strong {
   background: #ffc740;
-  padding: 0 5px; }
+  padding: 0 5px;
+  font-weight: normal; }
 
 .wc-big-list li {
   font-size: 18px;
