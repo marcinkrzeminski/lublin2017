@@ -7,8 +7,9 @@ a {
   text-decoration: none;
 
   &:hover, &:active {
-    color: $black1;
+    color: $navigation-background-color;
     outline: 0;
+    text-decoration: none;
   }
 }
 
@@ -89,8 +90,9 @@ a .nav-title,
 
 .entry-content a {
   &:focus, &:hover {
-    color: $black1;
-    text-decoration: underline;
+    color: $navigation-background-color;
+    outline: 0;
+    text-decoration: none;
 
   }
 }
