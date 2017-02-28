@@ -2318,7 +2318,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
   text-align: right;
   width: 100%;
   display: block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif; }
 
 .entry-content .more-link:before {
   content: "";
