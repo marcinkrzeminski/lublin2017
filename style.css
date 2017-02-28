@@ -2271,8 +2271,8 @@ a.btn-red {
 .blog .page-header .page-title {
   font-size: 27px; }
 
-.blog .page-header .entry-header .entry-title {
-  font-size: 35px !important;
+.blog .entry-header .entry-title {
+  font-size: 35px;
   padding-bottom: 20px; }
 
 .blog .entry-content {
