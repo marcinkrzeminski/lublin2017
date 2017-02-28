@@ -1375,6 +1375,9 @@ a {
 .entry-footer a, .entry-footer .cat-links a, .entry-footer .tags-links a {
   text-decoration: none; }
 
+.edit-link {
+  display: none; }
+
 .edit-link a,
 .post-navigation a,
 .logged-in-as a,
