@@ -279,9 +279,69 @@
       display: inline-block;
 
       &.menu-item-has-children{
+
+        > a{
+
+          &:after{
+
+            content: '';
+            display: inline-block;
+            left: 7px;
+            top: -4px;
+            position: relative;
+            overflow: hidden;
+            height: 6px;
+            font-size: 1em;
+            width: 6px;
+            text-align: center;
+            -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+
+            transform: rotate(45deg);
+            text-transform: none;
+            text-indent: -10px;
+            border-right: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+
+
+          }
+
+          &:hover{
+
+            &:after{
+
+              border-right: 1px solid $yellow;
+              border-bottom: 1px solid $yellow;
+
+            }
+
+          }
+
+          svg{
+
+            display: none!important;
+
+          }
+
+        }
+
         &:hover{
 
           background: lighten($navigation-background-color, 3%);
+
+          a{
+
+            &:hover{
+
+              &:after{
+
+                border-right: 1px solid $yellow;
+                border-bottom: 1px solid $yellow;
+
+              }
+
+            }
+
+          }
 
         }
       }

@@ -3598,8 +3598,34 @@ embed, iframe, object {
   .main-navigation li {
     border: 0;
     display: inline-block; }
+    .main-navigation li.menu-item-has-children > a:after {
+      content: '';
+      display: inline-block;
+      left: 7px;
+      top: -4px;
+      position: relative;
+      overflow: hidden;
+      height: 6px;
+      font-size: 1em;
+      width: 6px;
+      text-align: center;
+      -webkit-transform: rotate(45deg);
+      /* Chrome, Safari, Opera */
+      transform: rotate(45deg);
+      text-transform: none;
+      text-indent: -10px;
+      border-right: 1px solid #fff;
+      border-bottom: 1px solid #fff; }
+    .main-navigation li.menu-item-has-children > a:hover:after {
+      border-right: 1px solid #ffc740;
+      border-bottom: 1px solid #ffc740; }
+    .main-navigation li.menu-item-has-children > a svg {
+      display: none !important; }
     .main-navigation li.menu-item-has-children:hover {
       background: #4e4e4e; }
+      .main-navigation li.menu-item-has-children:hover a:hover:after {
+        border-right: 1px solid #ffc740;
+        border-bottom: 1px solid #ffc740; }
     .main-navigation li li {
       display: block; }
   .main-navigation a {
