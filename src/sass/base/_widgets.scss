@@ -300,6 +300,32 @@ h2.widget-title {
         width: 100%;
         padding: 5px 0px;
         box-shadow: none;
+        position: relative;
+        overflow: hidden;
+
+        &:after{
+
+          display: block;
+          content: '';
+          -ms-transform: rotate(45deg); /* IE 9 */
+          -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+          transform: rotate(45deg);
+          top: 100%;
+          width: 1000px;
+          height: 1000px;
+          position: absolute;
+          left: 20%;
+          background: #fff;
+          opacity: 0.2;
+
+          -webkit-transition: all 0.21s ease-in-out;
+          -moz-transition: all 0.21s ease-in-out;
+          -o-transition: all 0.21s ease-in-out;
+          transition: all 0.21s ease-in-out;
+
+
+        }
+
 
         i{
 
@@ -333,6 +359,12 @@ h2.widget-title {
           box-shadow: none!important;
           -webkit-box-shadow: none!important;
           transition: none;
+
+          &:after{
+
+            top: -850%;
+
+          }
 
         }
 

@@ -113,10 +113,48 @@
     }
   }
   #subscribe-submit {
+
     float: left;
     width: 35%;
     height: 50px;
     margin: 0;
+    position: relative;
+    overflow: hidden;
+    background: $brand-logo-color-blue;
+
+    &:after{
+
+      display: block;
+      content: '';
+      -ms-transform: rotate(45deg); /* IE 9 */
+      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+      transform: rotate(45deg);
+      top: 100%;
+      width: 1000px;
+      height: 1000px;
+      position: absolute;
+      left: 20%;
+      background: #fff;
+      opacity: 0.2;
+
+      -webkit-transition: all 0.21s ease-in-out;
+      -moz-transition: all 0.21s ease-in-out;
+      -o-transition: all 0.21s ease-in-out;
+      transition: all 0.21s ease-in-out;
+
+
+    }
+
+    &:hover{
+
+      &:after{
+
+        top: -850%;
+
+      }
+
+    }
+
     input {
       padding: 0.7em 0;
       width: 100%;
@@ -126,11 +164,18 @@
       height: 50px;
       font-weight:400;
       text-transform: uppercase;
-      background: $brand-logo-color-blue;
+      position: relative;
+      z-index: 1;
+      background: transparent;
+
       &:hover{
-      background:$yellow;
-      color:  $navigation-background-color !important; 
+
+        background: transparent;
+
       }
+
+
+
     }
   }
   #subscribe-text p {

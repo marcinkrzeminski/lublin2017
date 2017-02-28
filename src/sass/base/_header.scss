@@ -82,6 +82,21 @@ body {
     display: inline-block;
     max-height: 200px!important;
     width: auto;
+    -webkit-transition: all 0.21s ease-in-out;
+    -moz-transition: all 0.21s ease-in-out;
+    -o-transition: all 0.21s ease-in-out;
+    transition: all 0.21s ease-in-out;
+  }
+
+  &:hover{
+
+    img{
+
+      opacity: 0.9;
+
+
+    }
+
   }
 }
 

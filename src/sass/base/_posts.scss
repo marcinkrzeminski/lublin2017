@@ -22,20 +22,18 @@
 }
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-  font-size: 23px;
-
+  font-size: 37px;
   font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-align:center;
-  color: $navigation-background-color; 
+  color: $navigation-background-color;
+  margin-bottom: 20px;
 }
 .entry-header{
   text-align:center;
 }
-.entry-header .entry-title {
-  margin-bottom: 0.25em;
-}
+
 
 .entry-title {
 
@@ -150,6 +148,16 @@
 
 .next.page-numbers {
   float: right;
+}
+
+.entry-content{
+
+  h2{
+
+    padding-top: 20px;
+
+  }
+
 }
 
 /* Aligned blockquotes */

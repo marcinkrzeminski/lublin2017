@@ -177,20 +177,56 @@
 
       float: right;
       background: #c02942;
+      overflow: hidden;
 
-      &:hover,
-      &:focus{
+      a{
 
-        background: $yellow;
-        color: $navigation-background-color !important;
+        position: relative;
+        z-index: 2;
+
+        &:hover{
+
+          color: #fff;
+
+        }
 
       }
 
-      a:hover,
-      a:focus{
 
-         color: $navigation-background-color !important;
 
+      &:after{
+
+        display: block;
+        content: '';
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+        transform: rotate(45deg);
+        top: 100%;
+        width: 1000px;
+        height: 1000px;
+        position: absolute;
+        left: 20%;
+        background: #fff;
+        opacity: 0.2;
+
+        -webkit-transition: all 0.21s ease-in-out;
+        -moz-transition: all 0.21s ease-in-out;
+        -o-transition: all 0.21s ease-in-out;
+        transition: all 0.21s ease-in-out;
+
+
+      }
+
+      &:hover,
+      &:active{
+        text-decoration:none !important;
+        text-shadow: none;
+
+        &:after{
+
+          top: -850%;
+
+        }
       }
 
     }
@@ -446,8 +482,9 @@
     padding: 5.5em 0 0;
   }
   .single-post .entry-title, .page .entry-title {
-    font-size: 26px;
-    font-size: 1.5rem;
+
+    font-size: 37px;
+
   }
   .comments-pagination {
     clear: both;
