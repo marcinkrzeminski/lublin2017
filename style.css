@@ -2461,6 +2461,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
   text-align: center;
   padding-top: 20px; }
 
+.gallery-icon {
+  padding: 15px; }
+
 /*--------------------------------------------------------------
 13.5 Pages
 --------------------------------------------------------------*/
