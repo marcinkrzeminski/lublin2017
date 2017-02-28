@@ -2520,7 +2520,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 /*bilety*/
 .tix-js form input[type="submit"] {
   background: #c02942;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: normal; }
   .tix-js form input[type="submit"]:hover {
     background: #d12d48; }
 
