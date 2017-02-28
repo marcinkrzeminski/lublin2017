@@ -2517,6 +2517,11 @@ body:not(.twentyseventeen-front-page) .entry-header {
   width: 100% !important;
   max-width: 100% !important; }
 
+/*bilety*/
+.tix-js form input[type="submit"] {
+  background: #c02942;
+  text-transform: uppercase; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
