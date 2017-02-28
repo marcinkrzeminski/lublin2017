@@ -177,6 +177,36 @@
   padding-bottom: 2em;
 }
 
+.blog{
+
+  .page-header{
+
+    .page-title{
+
+      font-size: 27px;
+
+    }
+
+    .entry-header{
+
+      .entry-title{
+
+        font-size: 30px;
+        padding-bottom: 20px;
+
+      }
+
+    }
+
+    .entry-content{
+
+      border-bottom: 1px solid $silver2;
+    }
+
+  }
+
+}
+
 body:not(.twentyseventeen-front-page) {
   .entry-header {
     padding: 1em 0 0.2em;
