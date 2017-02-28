@@ -443,6 +443,20 @@ body:not(.twentyseventeen-front-page) {
 
 .gallery-icon{
 
-  padding:15px
+  padding:15px;
+  cursor: pointer;
+
+  &:hover{
+    img{
+
+      opacity: 0.7;
+      box-shadow: 0 0 0 8px #fff;
+      
+
+    }
+
+  }
+
+
 
 }
