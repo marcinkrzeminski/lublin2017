@@ -2110,7 +2110,8 @@ a.btn {
     transition: all 0.21s ease-in-out; }
   a.btn:hover, a.btn:active {
     text-decoration: none !important;
-    text-shadow: none; }
+    text-shadow: none;
+    color: #fff; }
     a.btn:hover:after, a.btn:active:after {
       top: -850%; }
 
@@ -2313,7 +2314,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 /* More tag */
 .entry-content .more-link {
-  color: #006f99;
+  color: #c02942;
   text-align: right; }
 
 .entry-content .more-link:before {
