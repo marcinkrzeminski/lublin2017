@@ -3713,6 +3713,8 @@ embed, iframe, object {
     padding: 5.5em 0 0; }
   .single-post .entry-title, .page .entry-title {
     font-size: 37px; }
+  .single-post .entry-title {
+    padding-bottom: 20px; }
   .comments-pagination {
     clear: both; }
   .post-navigation {
