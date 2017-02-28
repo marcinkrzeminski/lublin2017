@@ -2465,8 +2465,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   padding: 15px;
   cursor: pointer; }
   .gallery-icon:hover img {
-    opacity: 0.7;
-    box-shadow: 0 0 0 8px #fff; }
+    opacity: 0.7; }
 
 /*--------------------------------------------------------------
 13.5 Pages
