@@ -2272,7 +2272,7 @@ a.btn-red {
   font-size: 27px; }
 
 .blog .page-header .entry-header .entry-title {
-  font-size: 35px;
+  font-size: 35px !important;
   padding-bottom: 20px; }
 
 .blog .entry-content {
