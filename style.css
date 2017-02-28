@@ -2521,6 +2521,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .tix-js form input[type="submit"] {
   background: #c02942;
   text-transform: uppercase; }
+  .tix-js form input[type="submit"]:hover {
+    background: #d12d48; }
 
 /*--------------------------------------------------------------
 13.6 Footer
