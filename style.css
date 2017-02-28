@@ -2568,6 +2568,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .jetpack_subscription_widget form {
     max-width: 600px;
     margin: 0 auto; }
+    .jetpack_subscription_widget form .subscribe-text {
+      margin: 0 -30px 1.5em -30px; }
   .jetpack_subscription_widget #subscribe-email {
     float: left;
     width: 60%;
