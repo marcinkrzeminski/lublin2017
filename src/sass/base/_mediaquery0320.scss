@@ -10,6 +10,8 @@
 
 
 
+
+
   /* Site Branding */
   .site-branding {
     margin: 0 auto!important;
@@ -28,6 +30,34 @@
   .site-branding {
 
     height: 360px!important;
+
+  }
+
+  .column-frontpage-main-info{
+
+    a{
+
+      transition: all 1s ease-in-out;
+
+      &:hover{
+
+
+
+      }
+
+      &:before{
+
+        top: 8%;
+        width: 1000px;
+        height: 1000px;
+        -ms-transform: rotate(45deg); /* IE 9 */
+        -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+        transform: rotate(45deg);
+        transition: all 0.2s ease-in-out;
+
+      }
+
+    }
 
   }
 

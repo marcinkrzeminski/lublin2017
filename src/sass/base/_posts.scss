@@ -22,8 +22,8 @@
 }
 
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-  font-size: 28px;
-  font-size: 1.6rem;
+  font-size: 23px;
+
   font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -43,7 +43,7 @@
   color: $navigation-background-color;
     letter-spacing: 0.05em;
   a {
-    color: $navigation-background-color;
+    color: $blue2;
     text-decoration: none;
     &:hover{
      text-decoration: none !important;
@@ -245,7 +245,7 @@ body:not(.twentyseventeen-front-page) {
 
   .page-title{
 
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
     color: $navigation-background-color;
     text-align: center;
