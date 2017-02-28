@@ -2272,8 +2272,11 @@ a.btn-red {
   font-size: 27px; }
 
 .blog .page-header .entry-header .entry-title {
-  font-size: 30px;
+  font-size: 35px;
   padding-bottom: 20px; }
+
+.blog .entry-content {
+  border-bottom: 1px solid #eee; }
 
 body:not(.twentyseventeen-front-page) .entry-header {
   padding: 1em 0 0.2em;
