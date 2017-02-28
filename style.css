@@ -3725,10 +3725,10 @@ embed, iframe, object {
     float: left;
     width: 36%; }
   .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content {
-    float: right;
+    margin: 0 auto;
     width: 58%; }
   body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
-    float: right;
+    margin: 0 auto;
     width: 58%; }
   .blog .site-main > article, .archive .site-main > article, .search .site-main > article {
     padding-bottom: 4em; }

@@ -523,13 +523,13 @@
 
   .error404 {
     &:not(.has-sidebar) #primary .page-content, &.has-sidebar #primary .page-content {
-      float: right;
+      margin: 0 auto;
       width: 58%;
     }
   }
   body.page-two-column {
     &:not(.archive) #primary .entry-content, #comments {
-      float: right;
+      margin: 0 auto;
       width: 58%;
     }
   }
