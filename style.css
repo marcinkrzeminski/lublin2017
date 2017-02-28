@@ -2316,7 +2316,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .entry-content .more-link {
   color: #c02942;
   text-align: right;
-  width: 100%; }
+  width: 100%;
+  display: block; }
 
 .entry-content .more-link:before {
   content: "";
