@@ -3544,6 +3544,8 @@ embed, iframe, object {
         z-index: 2; }
         .navigation-top .ticket-label a:hover {
           color: #fff; }
+      .navigation-top .ticket-label.current-menu-item a {
+        color: #fff; }
       .navigation-top .ticket-label:after {
         display: block;
         content: '';
