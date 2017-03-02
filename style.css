@@ -2527,7 +2527,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .tix-js .tix-column-quantity select {
   padding-left: 5px;
-  min-width: 48px; }
+  min-width: 48px;
+  height: 2.3em; }
 
 .tix-js .tix-ticket-excerpt {
   font-size: 15px;
