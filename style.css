@@ -2540,6 +2540,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .tix-js .tix-column-price {
   font-weight: bold; }
 
+.tix-js .tix-column-remaining {
+  text-align: center;
+  color: #c02942; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
