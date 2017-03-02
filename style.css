@@ -2533,6 +2533,13 @@ body:not(.twentyseventeen-front-page) .entry-header {
   font-size: 15px;
   line-height: 1.4; }
 
+.tix-js .tix-column-description {
+  text-indent: -3000px;
+  overflow: hidden; }
+
+.tix-js .tix-column-price {
+  font-weight: bold; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
