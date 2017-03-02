@@ -2531,7 +2531,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .tix-js .tix-ticket-excerpt {
   font-size: 15px;
-  line-height: 1.4; }
+  line-height: 1.4;
+  display: block; }
 
 .tix-js th.tix-column-description {
   text-indent: -3000px;
