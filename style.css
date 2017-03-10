@@ -2560,9 +2560,11 @@ body:not(.twentyseventeen-front-page) .entry-header {
   padding-left: 0; }
   .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 {
     width: 100%; }
-    .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 .avatar {
+    .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 img {
       width: 80px !important;
       height: 80px !important; }
+  .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-field {
+    margin-left: 95px; }
 
 /*--------------------------------------------------------------
 13.6 Footer
