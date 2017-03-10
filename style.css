@@ -2549,6 +2549,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
 /*Kalendarz wordupów*/
 .page-slug-kalendarz-wordupow .site-content .wrap {
   max-width: 1170px; }
+  .page-slug-kalendarz-wordupow .site-content .wrap .entry-content iframe {
+    width: 100%;
+    max-width: 100%; }
 
 /*--------------------------------------------------------------
 13.6 Footer
