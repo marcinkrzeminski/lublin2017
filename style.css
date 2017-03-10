@@ -2556,11 +2556,13 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .page-slug-uczestnicy .site-content .wrap {
   max-width: 1170px; }
 
-.page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 {
-  width: 100%; }
-  .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 .avatar {
-    width: 80px;
-    height: 80px; }
+.page-slug-uczestnicy #tix-attendees .tix-attendee-list {
+  padding-left: 0; }
+  .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 {
+    width: 100%; }
+    .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 .avatar {
+      width: 80px !important;
+      height: 80px !important; }
 
 /*--------------------------------------------------------------
 13.6 Footer

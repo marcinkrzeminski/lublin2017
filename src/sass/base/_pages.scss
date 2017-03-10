@@ -155,14 +155,16 @@
 
     .tix-attendee-list{
 
+      padding-left: 0;
+
       .tix-columns-3{
 
         width: 100%;
 
         .avatar{
 
-          width: 80px;
-          height: 80px;
+          width: 80px!important;
+          height: 80px!important;
 
         }
 
