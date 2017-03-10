@@ -867,6 +867,31 @@
 
   }
 
+  /*page uczestnicy*/
+
+  .page-slug-uczestnicy{
+
+
+    #tix-attendees {
+
+      .tix-attendee-list {
+
+        padding-left: 0;
+
+        &.tix-columns-3 {
+
+          li{
+
+            width: 50%;
+
+          }
+
+        }
+      }
+    }
+
+  }
+
 }
 
 

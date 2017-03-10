@@ -3415,7 +3415,11 @@ embed, iframe, object {
     margin: 0 auto !important;
     padding: 3em 0 0 0; }
   .site-description {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .page-slug-uczestnicy #tix-attendees .tix-attendee-list {
+    padding-left: 0; }
+    .page-slug-uczestnicy #tix-attendees .tix-attendee-list.tix-columns-3 li {
+      width: 100%; } }
 
 @media screen and (min-width: 20em) and (max-width: 48em) {
   .site-branding {
@@ -4026,7 +4030,12 @@ embed, iframe, object {
 
 @media screen and (min-width: 30em) and (max-width: 48em) {
   .embed-youtube iframe {
-    max-height: 380px; } }
+    max-height: 380px; }
+  /*page uczestnicy*/
+  .page-slug-uczestnicy #tix-attendees .tix-attendee-list {
+    padding-left: 0; }
+    .page-slug-uczestnicy #tix-attendees .tix-attendee-list.tix-columns-3 li {
+      width: 50%; } }
 
 @media screen and (min-width: 67em) {
   /* Navigation */
