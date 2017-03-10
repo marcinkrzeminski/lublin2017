@@ -2563,6 +2563,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
     .page-slug-uczestnicy #tix-attendees .tix-attendee-list.tix-columns-3 img {
       width: 80px;
       height: 80px; }
+    .page-slug-uczestnicy #tix-attendees .tix-attendee-list.tix-columns-3 li {
+      margin-bottom: 30px;
+      width: 25%; }
   .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-field {
     margin-left: 95px; }
 
