@@ -2546,6 +2546,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
   text-align: center;
   color: #c02942; }
 
+/*Kalendarz wordupów*/
+.page-slug-kalendarz-wordupow .site-content .wrap {
+  max-width: 1170px; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
