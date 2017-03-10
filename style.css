@@ -2553,6 +2553,15 @@ body:not(.twentyseventeen-front-page) .entry-header {
     width: 100%;
     max-width: 100%; }
 
+.page-slug-uczestnicy .site-content .wrap {
+  max-width: 1170px; }
+
+.page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 {
+  width: 100%; }
+  .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-columns-3 .avatar {
+    width: 80px;
+    height: 80px; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
