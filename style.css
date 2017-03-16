@@ -2532,6 +2532,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .tix-js form input[type="submit"]:hover {
     background: #d12d48; }
 
+.tix-js form #tix-coupon-container input[type="submit"] {
+  background: #0085ba; }
+
 .tix-js .tix-column-quantity select {
   padding-left: 5px;
   min-width: 48px;
