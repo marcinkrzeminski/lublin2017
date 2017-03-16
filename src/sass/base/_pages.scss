@@ -70,7 +70,13 @@
 
         background: $blue1;
         font-size: 12px;
-        padding: 4px 10px;
+        padding: 7px 12px;
+
+        &:hover{
+
+          background: lighten($blue1, 10%)
+
+        }
 
       }
 

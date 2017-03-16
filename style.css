@@ -2535,7 +2535,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .tix-js form #tix-coupon-container input[type="submit"] {
   background: #0085ba;
   font-size: 12px;
-  padding: 4px 10px; }
+  padding: 7px 12px; }
+  .tix-js form #tix-coupon-container input[type="submit"]:hover {
+    background: #00a9ed; }
 
 .tix-js .tix-column-quantity select {
   padding-left: 5px;
