@@ -2532,10 +2532,17 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .tix-js form input[type="submit"]:hover {
     background: #d12d48; }
 
+.tix-js form #tix-coupon-container #tix-coupon-input {
+  width: 40%;
+  float: right; }
+
 .tix-js form #tix-coupon-container input[type="submit"] {
   background: #0085ba;
   font-size: 12px;
-  padding: 7px 12px; }
+  padding: 7px 12px;
+  float: right;
+  clear: both;
+  margin-top: 5px; }
   .tix-js form #tix-coupon-container input[type="submit"]:hover {
     background: #0097d4; }
 
