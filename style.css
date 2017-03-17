@@ -2590,6 +2590,11 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .page-slug-uczestnicy #tix-attendees .tix-attendee-list .tix-field {
     margin-left: 105px; }
 
+/*organizatorzy*/
+.wcorg-organizers .wcorg-organizer img {
+  float: left;
+  margin-right: 25px; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
