@@ -2593,7 +2593,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
 /*organizatorzy*/
 .wcorg-organizers .wcorg-organizer img {
   float: left;
-  margin-right: 25px; }
+  margin-right: 25px;
+  width: 125px;
+  height: 125px; }
 
 /*--------------------------------------------------------------
 13.6 Footer
