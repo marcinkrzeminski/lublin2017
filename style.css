@@ -2600,7 +2600,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     height: 96px;
     position: absolute;
     left: 0;
-    top: 0; }
+    top: 10px; }
 
 /*--------------------------------------------------------------
 13.6 Footer
