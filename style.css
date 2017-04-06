@@ -2601,7 +2601,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     width: 50%;
     position: relative;
     padding: 20px  125px 40px 15px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    min-height: 350px; }
     .wcorg-organizers .wcorg-organizer img {
       float: left;
       width: 96px;
