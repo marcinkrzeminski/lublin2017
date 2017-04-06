@@ -227,14 +227,25 @@
 
 .wcorg-organizers{
 
+  margin: 0 -15px;
+
   .wcorg-organizer{
+
+    float: left;
+    width: 50%;
+    position: relative;
+    padding:20px  115px 20px 15px;
+    
 
     img{
 
       float: left;
       margin-right: 25px;
-      width: 125px;
-      height: 125px;
+      width: 96px;
+      height: 96px;
+      position: absolute;
+      top: 0;
+      right: 15px;
 
     }
 
