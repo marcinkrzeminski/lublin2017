@@ -2600,7 +2600,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     float: left;
     width: 50%;
     position: relative;
-    padding: 20px  125px 40px 15px; }
+    padding: 20px  125px 40px 15px;
+    box-sizing: border-box; }
     .wcorg-organizers .wcorg-organizer img {
       float: left;
       margin-right: 25px;
