@@ -2597,7 +2597,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcorg-organizers {
   margin: 0 -15px; }
   .wcorg-organizers .wcorg-organizer {
-    float: left;
+    display: inline-block;
     width: 50%;
     position: relative;
     padding: 20px  125px 40px 15px;
