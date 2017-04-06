@@ -2598,7 +2598,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
     margin-right: 25px;
     width: 96px;
     height: 96px;
-    position: absolute; }
+    position: absolute;
+    left: 0;
+    top: 0; }
 
 /*--------------------------------------------------------------
 13.6 Footer
