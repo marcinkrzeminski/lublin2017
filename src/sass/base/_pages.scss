@@ -229,14 +229,24 @@
 
   .wcorg-organizer{
 
-    img{
 
-      float: left;
-      margin-right: 25px;
-      width: 96px;
-      height: 96px;
+    .wcorg-organizer-description{
+
+      position: relative;
+      padding-left: 120px;
+
+      img{
+
+
+        margin-right: 25px;
+        width: 96px;
+        height: 96px;
+        position: absolute
+
+      }
 
     }
+
 
   }
 
