@@ -2595,6 +2595,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
   position: relative;
   padding-left: 120px;
   padding-bottom: 20px; }
+  .wcorg-organizers .wcorg-organizer .wcorg-organizer-description p {
+    margin-bottom: 0; }
   .wcorg-organizers .wcorg-organizer .wcorg-organizer-description img {
     margin-right: 25px;
     width: 96px;
