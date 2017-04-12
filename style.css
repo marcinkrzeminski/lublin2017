@@ -2606,6 +2606,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
     left: 0;
     top: 10px; }
 
+/*Dla sponsorów*/
+.page-slug-zostan-sponsorem .site-content .wrap {
+  max-width: 1170px; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
