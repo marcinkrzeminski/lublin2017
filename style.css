@@ -2607,7 +2607,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     top: 10px; }
 
 /*Dla sponsorów*/
-.page-slug-zostan-sponsorem .site-content .wrap {
+.page-slug-zostan-sponsorem .site-content .wrap,
+.page-id-1242 .site-content .wrap {
   max-width: 1170px; }
 
 /*--------------------------------------------------------------
