@@ -2265,6 +2265,9 @@ a.btn-red {
 .entry-content h2 {
   padding-top: 10px; }
 
+.entry-content p + h2 {
+  margin-bottom: 40px; }
+
 /* Aligned blockquotes */
 .entry-content blockquote.alignleft, .entry-content blockquote.alignright {
   color: #666;
