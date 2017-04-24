@@ -34,6 +34,21 @@
       font-size: 0.875rem;
     }
   }
+
+  .entry-content{
+
+    .alignleft{
+
+
+      float:left;
+      margin-right: 1.5em;
+
+
+    }
+
+  }
+
+
   /* Fix image alignment */
   img {
     &.alignleft {
