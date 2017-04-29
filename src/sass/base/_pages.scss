@@ -298,9 +298,20 @@
 
   font-size: 14px;
 
+  .wcpt-session-speakers{
+
+    a{
+
+      font-style: italic;
+      color: #ffc740;
+
+    }
+  }
+
   .wcpt-session-type-custom{
     font-weight: bold;
     text-align: center;
+    min-height: 50px;
   }
 
 }
