@@ -2637,6 +2637,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
     text-align: center;
     height: 50px; }
 
+.wcb-speaker-magdalena-paciorek.wcb-speaker-jakub-milczarek,
+.wcb-speaker-maciej-swoboda {
+  background: rgba(0, 111, 153, 0.28); }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
