@@ -2628,7 +2628,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcpt-schedule .wcpt-session-speakers a {
     font-style: italic;
     color: #c02942;
-    display: inline-block;
+    display: block;
     font-size: 13px; }
   .wcpt-schedule .wcpt-session-type-custom {
     font-weight: bold;
