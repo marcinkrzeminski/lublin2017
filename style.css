@@ -2624,7 +2624,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcpt-schedule {
   font-size: 14px; }
   .wcpt-schedule td {
-    padding: .05em 0.7em; }
+    padding: .07em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
     clear: both;
     display: block; }
@@ -2639,7 +2639,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .wcb-speaker-magdalena-paciorek.wcb-speaker-jakub-milczarek,
 .wcb-speaker-maciej-swoboda {
-  background: rgba(0, 111, 153, 0.28); }
+  background: rgba(0, 111, 153, 0.18); }
 
 /*--------------------------------------------------------------
 13.6 Footer
