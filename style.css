@@ -2623,6 +2623,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .wcpt-schedule {
   font-size: 14px; }
+  .wcpt-schedule .wcpt-session-type-custom {
+    font-weight: bold;
+    text-align: center; }
 
 /*--------------------------------------------------------------
 13.6 Footer
