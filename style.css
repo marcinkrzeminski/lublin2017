@@ -2617,6 +2617,13 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .page-id-1242 .site-content .wrap {
   max-width: 1170px; }
 
+/*Prelekcje*/
+.page-slug-1867 .site-content .wrap {
+  max-width: 1170px; }
+
+.wcpt-schedule {
+  font-size: 14px; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
