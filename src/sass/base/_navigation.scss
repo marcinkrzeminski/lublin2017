@@ -21,7 +21,8 @@
   }
   .current-menu-item > a,
   .current_page_item > a,
-  .current-menu-parent > a{
+  .current-menu-parent > a,
+  .current_page_parent{
     color: $navigation-color-hover;
   }
 

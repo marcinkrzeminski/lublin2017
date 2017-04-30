@@ -1543,7 +1543,8 @@ a:hover .nav-title {
     text-transform: uppercase; }
   .navigation-top .current-menu-item > a,
   .navigation-top .current_page_item > a,
-  .navigation-top .current-menu-parent > a {
+  .navigation-top .current-menu-parent > a,
+  .navigation-top .current_page_parent {
     color: #ffc740; }
 
 .main-navigation {
