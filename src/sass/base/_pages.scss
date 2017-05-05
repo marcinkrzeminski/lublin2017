@@ -338,8 +338,14 @@
 
   .wcb-session-warsztaty-*{
 
-    background: #ffc740;
 
+
+  }
+
+  [class*=wcb-session-warsztaty-]{
+
+    background: #ffc740;
+    
   }
 
 

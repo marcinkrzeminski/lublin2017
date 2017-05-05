@@ -2639,7 +2639,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
       font-style: italic;
       color: #c02942;
       font-size: 13px; }
-  .wcpt-schedule .wcb-session-warsztaty-* {
+  .wcpt-schedule [class*=wcb-session-warsztaty-] {
     background: #ffc740; }
   .wcpt-schedule .wcpt-session-type-custom {
     font-weight: bold;
