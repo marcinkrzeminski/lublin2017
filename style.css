@@ -2653,7 +2653,16 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-aleksander-kuczek,
 .wcb-speaker-adam-czajczyk,
 .wcb-speaker-arek-steplowski,
-.wcb-speaker-kamil-porembinski {
+.wcb-speaker-kamil-porembinski,
+.wcb-speaker-ewa-karaszkiewicz,
+.wcb-speaker-gienia-malenia,
+.wcb-speaker-magdalena-gorecka,
+.wcb-speaker-karol-trybulski,
+.wcb-speaker-olexij-fedorov,
+.wcb-speaker-tomasz-kolkiewicz,
+.wcb-speaker-maria-gorska,
+.wcb-speaker-rafal-tomal,
+.wcb-speaker-bartosz-bilicki {
   background: rgba(0, 111, 153, 0.18); }
 
 /* dla blogerow*/
@@ -2664,7 +2673,16 @@ body:not(.twentyseventeen-front-page) .entry-header {
   background: #c6e2ba; }
 
 /* dla programistow*/
-.wcb-speaker-tomasz-dziuda {
+.wcb-speaker-tomasz-dziuda,
+.wcb-speaker-rafal-osinski,
+.wcb-speaker-michal-strzesniewski,
+.wcb-speaker-piotr-niewiadomski,
+.wcb-speaker-marcin-bot,
+.wcb-speaker-daniel-wlazlak,
+.wcb-speaker-marcin-pietrzak,
+.wcb-speaker-krzysztof-drozdz,
+.wcb-speaker-lukasz-wilczak,
+.wcb-speaker-szymon-kadzielawa {
   background: rgba(192, 41, 66, 0.32); }
 
 /*--------------------------------------------------------------
