@@ -2655,7 +2655,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
   background: rgba(0, 111, 153, 0.18); }
 
 /* dla blogerow*/
-.wcb-speaker-bartosz-romanowski {
+.wcb-speaker-bartosz-romanowski,
+.wcb-speaker-ola-gosciniak,
+.wcb-speaker-tomasz-palak,
+.wcb-speaker-lukasz-badziak {
   background: #c6e2ba; }
 
 /*--------------------------------------------------------------
