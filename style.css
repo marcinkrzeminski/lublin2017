@@ -2624,6 +2624,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .wcpt-schedule {
   font-size: 14px; }
+  .wcpt-schedule .wcpt-col-time {
+    width: 4%; }
+  .wcpt-schedule .wcpt-col-track {
+    width: 32%; }
   .wcpt-schedule td {
     padding: .07em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
