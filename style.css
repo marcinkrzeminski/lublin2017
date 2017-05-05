@@ -2628,6 +2628,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     width: 4%; }
   .wcpt-schedule .wcpt-col-track {
     width: 32%; }
+  .wcpt-schedule .wcpt-time {
+    font-weight: bold; }
   .wcpt-schedule td {
     padding: .07em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
@@ -2637,6 +2639,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
       font-style: italic;
       color: #c02942;
       font-size: 13px; }
+  .wcpt-schedule .wcb-session-warsztaty-* {
+    background: #ffc740; }
   .wcpt-schedule .wcpt-session-type-custom {
     font-weight: bold;
     text-align: center;
