@@ -2632,6 +2632,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     font-weight: bold; }
   .wcpt-schedule tr:nth-child(odd) {
     background-color: #f3f3f3; }
+  .wcpt-schedule tr:hover {
+    background: #eee; }
   .wcpt-schedule td {
     padding: 0.7em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
@@ -2647,7 +2649,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     height: 50px; }
   .wcpt-schedule .wcpt-col-track {
     border-left: 1px solid gray;
-    background: #eee; }
+    background: #eee;
+    text-align: center; }
 
 /*dla wszystkich*/
 .wcb-speaker-magdalena-paciorek.wcb-speaker-jakub-milczarek,

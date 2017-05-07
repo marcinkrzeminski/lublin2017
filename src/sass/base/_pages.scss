@@ -321,6 +321,10 @@
 
   }
 
+  tr:hover{
+    background: #eee;
+  }
+
 
 
   td{
@@ -359,6 +363,7 @@
   .wcpt-col-track{
     border-left: 1px solid rgb(128, 128, 128);
     background: #eee;
+    text-align: center;
   }
 
 }
