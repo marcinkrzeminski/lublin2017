@@ -404,20 +404,21 @@
 .wcb-track-dla-programistow{
 
   //background: rgba(192, 41, 66, 0.32);
-  position: relative;
+  padding-top: 25px;
+  border-right: 2px solid rgb(192, 41, 66);
 
   &:before{
     content: 'Dla programistów';
     display: block;
     position: absolute;
-    bottom: 5px;
-    right: 5px;
-    font-size: 12px;
+    top: 5px;
+    left: 5px;
+    font-size: 11px;
     background-color: rgb(192, 41, 66);
-    padding: 2px 4px;
+    padding: 2px 7px;
     border-radius: 2px;
     color: #fff;
-    
+    font-weight: normal;
 
   }
 
