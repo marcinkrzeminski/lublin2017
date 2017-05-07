@@ -317,7 +317,7 @@
 
   td{
 
-    padding: 2.07em 0.7em 0.7em;
+    padding: 2.27em 0.7em 0.7em;
 
   }
 
@@ -369,8 +369,27 @@
 .wcb-speaker-katarzyna-janoska,
 .wcb-speaker-dominik-kawula{
 
-  background: rgba(0, 111, 153, 0.18);
 
+
+  padding-top: 25px;
+  border-right: 2px solid rgb(0, 111, 153);
+  position: relative;
+
+
+  &:before{
+    content: 'Dla wszystkich';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 11px;
+    background-color: rgb(0, 111, 153);
+    padding: 2px 7px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: normal;
+
+  }
 
 }
 
@@ -381,7 +400,24 @@
 .wcb-speaker-tomasz-palak,
 .wcb-speaker-lukasz-badziak{
 
-  background: #c6e2ba;
+  padding-top: 25px;
+  border-right: 2px solid #61BD4F;
+  position: relative;
+
+  &:before{
+    content: 'Dla blogerów';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 11px;
+    background-color: #61BD4F;
+    padding: 2px 7px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: normal;
+
+  }
 
 }
 

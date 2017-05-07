@@ -2631,7 +2631,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcpt-schedule .wcpt-time {
     font-weight: bold; }
   .wcpt-schedule td {
-    padding: 2.07em 0.7em 0.7em; }
+    padding: 2.27em 0.7em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
     clear: both;
     display: block; }
@@ -2661,14 +2661,60 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-rafal-tomal,
 .wcb-speaker-katarzyna-janoska,
 .wcb-speaker-dominik-kawula {
-  background: rgba(0, 111, 153, 0.18); }
+  padding-top: 25px;
+  border-right: 2px solid #006f99;
+  position: relative; }
+  .wcb-speaker-magdalena-paciorek.wcb-speaker-jakub-milczarek:before,
+  .wcb-speaker-maciej-swoboda:before,
+  .wcb-speaker-kasia-swiderska:before,
+  .wcb-speaker-aleksander-kuczek:before,
+  .wcb-speaker-adam-czajczyk:before,
+  .wcb-speaker-arek-steplowski:before,
+  .wcb-speaker-ewa-karaszkiewicz:before,
+  .wcb-speaker-gienia-malenia:before,
+  .wcb-speaker-magdalena-gorecka:before,
+  .wcb-speaker-karol-trybulski:before,
+  .wcb-speaker-olexij-fedorov:before,
+  .wcb-speaker-tomasz-kolkiewicz:before,
+  .wcb-speaker-maria-gorska:before,
+  .wcb-speaker-rafal-tomal:before,
+  .wcb-speaker-katarzyna-janoska:before,
+  .wcb-speaker-dominik-kawula:before {
+    content: 'Dla wszystkich';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 11px;
+    background-color: #006f99;
+    padding: 2px 7px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: normal; }
 
 /* dla blogerow*/
 .wcb-speaker-bartosz-romanowski,
 .wcb-speaker-ola-gosciniak,
 .wcb-speaker-tomasz-palak,
 .wcb-speaker-lukasz-badziak {
-  background: #c6e2ba; }
+  padding-top: 25px;
+  border-right: 2px solid #61BD4F;
+  position: relative; }
+  .wcb-speaker-bartosz-romanowski:before,
+  .wcb-speaker-ola-gosciniak:before,
+  .wcb-speaker-tomasz-palak:before,
+  .wcb-speaker-lukasz-badziak:before {
+    content: 'Dla blogerów';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 11px;
+    background-color: #61BD4F;
+    padding: 2px 7px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: normal; }
 
 /* dla programistow*/
 .wcb-speaker-tomasz-dziuda,
