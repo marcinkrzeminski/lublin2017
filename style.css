@@ -2684,8 +2684,12 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-szymon-kadzielawa,
 .wcb-speaker-bartosz-bilicki,
 .wcb-speaker-krzysztof-ozog,
-.wcb-speaker-marcin-krzeminski {
+.wcb-speaker-marcin-krzeminski,
+.wcb-track-dla-programistow {
   background: rgba(192, 41, 66, 0.32); }
+
+.wcb-track-dla-programistow {
+  font-size: 0; }
 
 /*--------------------------------------------------------------
 13.6 Footer
