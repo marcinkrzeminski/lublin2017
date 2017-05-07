@@ -315,6 +315,14 @@
 
   }
 
+  tr:nth-child(odd){
+
+    background-color: #f3f3f3;
+    
+  }
+
+
+
   td{
 
     padding: 2.27em 0.7em 0.7em;
@@ -463,4 +471,10 @@
 
 .wcb-track-dla-programistow{
   font-size: 0;
+
+  &:before{
+
+    display: none;
+
+  }
 }

@@ -2630,6 +2630,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     width: 32%; }
   .wcpt-schedule .wcpt-time {
     font-weight: bold; }
+  .wcpt-schedule tr:nth-child(odd) {
+    background-color: #f3f3f3; }
   .wcpt-schedule td {
     padding: 2.27em 0.7em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
@@ -2764,6 +2766,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .wcb-track-dla-programistow {
   font-size: 0; }
+  .wcb-track-dla-programistow:before {
+    display: none; }
 
 /*--------------------------------------------------------------
 13.6 Footer
