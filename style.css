@@ -2633,9 +2633,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcpt-schedule tr:nth-child(odd) {
     background-color: #f3f3f3; }
   .wcpt-schedule td {
-    padding: 0.7em 0.7em; }
-  .wcpt-schedule .wcpt-session-title {
-    display: block; }
+    padding: 2.27em 0.7em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
     clear: both;
     display: block; }
@@ -2665,7 +2663,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-rafal-tomal,
 .wcb-speaker-katarzyna-janoska,
 .wcb-speaker-dominik-kawula {
-  padding-top: 25px;
+  padding-top: 25px !important;
   border-right: 2px solid #006f99;
   position: relative; }
   .wcb-speaker-magdalena-paciorek.wcb-speaker-jakub-milczarek:before,
@@ -2686,6 +2684,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcb-speaker-dominik-kawula:before {
     content: 'Dla wszystkich';
     display: block;
+    position: absolute;
     top: 5px;
     left: 5px;
     font-size: 11px;
@@ -2693,16 +2692,14 @@ body:not(.twentyseventeen-front-page) .entry-header {
     padding: 1px 7px;
     border-radius: 2px;
     color: #fff;
-    font-weight: normal;
-    width: 110px;
-    text-align: center; }
+    font-weight: normal; }
 
 /* dla blogerow*/
 .wcb-speaker-bartosz-romanowski,
 .wcb-speaker-ola-gosciniak,
 .wcb-speaker-tomasz-palak,
 .wcb-speaker-lukasz-badziak {
-  padding-top: 25px;
+  padding-top: 25px !important;
   border-right: 2px solid #61BD4F;
   position: relative; }
   .wcb-speaker-bartosz-romanowski:before,
@@ -2711,6 +2708,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcb-speaker-lukasz-badziak:before {
     content: 'Dla blogerów';
     display: block;
+    position: absolute;
     top: 5px;
     left: 5px;
     font-size: 11px;
@@ -2718,9 +2716,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     padding: 1px 7px;
     border-radius: 2px;
     color: #fff;
-    font-weight: normal;
-    width: 110px;
-    text-align: center; }
+    font-weight: normal; }
 
 /* dla programistow*/
 .wcb-speaker-tomasz-dziuda,
@@ -2738,7 +2734,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-krzysztof-ozog,
 .wcb-speaker-marcin-krzeminski,
 .wcb-track-dla-programistow {
-  padding-top: 25px;
+  padding-top: 25px !important;
   border-right: 2px solid #c02942;
   position: relative; }
   .wcb-speaker-tomasz-dziuda:before,
@@ -2758,7 +2754,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcb-track-dla-programistow:before {
     content: 'Dla programistów';
     display: block;
-    margin: 2px;
+    position: absolute;
     top: 5px;
     left: 5px;
     font-size: 11px;
@@ -2766,9 +2762,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     padding: 1px 7px;
     border-radius: 2px;
     color: #fff;
-    font-weight: normal;
-    width: 110px;
-    text-align: center; }
+    font-weight: normal; }
 
 .wcb-track-dla-programistow {
   font-size: 0; }
