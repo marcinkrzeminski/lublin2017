@@ -2639,8 +2639,6 @@ body:not(.twentyseventeen-front-page) .entry-header {
       font-style: italic;
       color: #c02942;
       font-size: 13px; }
-  .wcpt-schedule [class*=wcb-session-warsztaty-] {
-    background: rgba(255, 199, 64, 0.45); }
   .wcpt-schedule .wcpt-session-type-custom {
     font-weight: bold;
     text-align: center;
@@ -2653,7 +2651,6 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-aleksander-kuczek,
 .wcb-speaker-adam-czajczyk,
 .wcb-speaker-arek-steplowski,
-.wcb-speaker-kamil-porembinski,
 .wcb-speaker-ewa-karaszkiewicz,
 .wcb-speaker-gienia-malenia,
 .wcb-speaker-magdalena-gorecka,
@@ -2662,7 +2659,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-tomasz-kolkiewicz,
 .wcb-speaker-maria-gorska,
 .wcb-speaker-rafal-tomal,
-.wcb-speaker-bartosz-bilicki {
+.wcb-speaker-katarzyna-janoska,
+.wcb-speaker-dominik-kawula {
   background: rgba(0, 111, 153, 0.18); }
 
 /* dla blogerow*/
@@ -2682,7 +2680,11 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-marcin-pietrzak,
 .wcb-speaker-krzysztof-drozdz,
 .wcb-speaker-lukasz-wilczak,
-.wcb-speaker-szymon-kadzielawa {
+.wcb-speaker-kamil-porembinski,
+.wcb-speaker-szymon-kadzielawa,
+.wcb-speaker-bartosz-bilicki,
+.wcb-speaker-krzysztof-ozog,
+.wcb-speaker-marcin-krzeminski {
   background: rgba(192, 41, 66, 0.32); }
 
 /*--------------------------------------------------------------
