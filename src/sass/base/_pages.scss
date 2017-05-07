@@ -387,7 +387,6 @@
   &:before{
     content: 'Dla wszystkich';
     display: block;
-    position: absolute;
     top: 5px;
     left: 5px;
     font-size: 11px;
@@ -396,6 +395,8 @@
     border-radius: 2px;
     color: #fff;
     font-weight: normal;
+    width: 110px;
+    text-align: center;
 
   }
 
@@ -415,7 +416,6 @@
   &:before{
     content: 'Dla blogerów';
     display: block;
-    position: absolute;
     top: 5px;
     left: 5px;
     font-size: 11px;
@@ -424,6 +424,8 @@
     border-radius: 2px;
     color: #fff;
     font-weight: normal;
+    width: 110px;
+    text-align: center;
 
   }
 
