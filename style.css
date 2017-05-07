@@ -2634,6 +2634,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     background-color: #f3f3f3; }
   .wcpt-schedule td {
     padding: 0.7em 0.7em; }
+  .wcpt-schedule .wcpt-session-title {
+    display: block; }
   .wcpt-schedule .wcpt-session-speakers {
     clear: both;
     display: block; }
