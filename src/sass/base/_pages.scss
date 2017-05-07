@@ -317,7 +317,7 @@
 
   td{
 
-    padding: .07em 0.7em;
+    padding: 1.07em 0.7em 0.7em;
 
   }
 
@@ -406,6 +406,7 @@
   //background: rgba(192, 41, 66, 0.32);
   padding-top: 25px;
   border-right: 2px solid rgb(192, 41, 66);
+  position: relative;
 
   &:before{
     content: 'Dla programistów';

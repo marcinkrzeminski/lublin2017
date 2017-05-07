@@ -2631,7 +2631,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcpt-schedule .wcpt-time {
     font-weight: bold; }
   .wcpt-schedule td {
-    padding: .07em 0.7em; }
+    padding: 1.07em 0.7em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
     clear: both;
     display: block; }
@@ -2687,7 +2687,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-marcin-krzeminski,
 .wcb-track-dla-programistow {
   padding-top: 25px;
-  border-right: 2px solid #c02942; }
+  border-right: 2px solid #c02942;
+  position: relative; }
   .wcb-speaker-tomasz-dziuda:before,
   .wcb-speaker-rafal-osinski:before,
   .wcb-speaker-michal-strzesniewski:before,
