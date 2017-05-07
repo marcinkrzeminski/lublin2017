@@ -2633,7 +2633,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcpt-schedule tr:nth-child(odd) {
     background-color: #f3f3f3; }
   .wcpt-schedule td {
-    padding: 2.27em 0.7em 0.7em; }
+    padding: 0.7em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
     clear: both;
     display: block; }
@@ -2763,7 +2763,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     border-radius: 2px;
     color: #fff;
     font-weight: normal;
-    width: 120px; }
+    width: 110px;
+    text-align: center; }
 
 .wcb-track-dla-programistow {
   font-size: 0; }
