@@ -2686,7 +2686,29 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-krzysztof-ozog,
 .wcb-speaker-marcin-krzeminski,
 .wcb-track-dla-programistow {
-  background: rgba(192, 41, 66, 0.32); }
+  background: rgba(192, 41, 66, 0.32);
+  position: relative; }
+  .wcb-speaker-tomasz-dziuda:before,
+  .wcb-speaker-rafal-osinski:before,
+  .wcb-speaker-michal-strzesniewski:before,
+  .wcb-speaker-piotr-niewiadomski:before,
+  .wcb-speaker-marcin-bot:before,
+  .wcb-speaker-daniel-wlazlak:before,
+  .wcb-speaker-marcin-pietrzak:before,
+  .wcb-speaker-krzysztof-drozdz:before,
+  .wcb-speaker-lukasz-wilczak:before,
+  .wcb-speaker-kamil-porembinski:before,
+  .wcb-speaker-szymon-kadzielawa:before,
+  .wcb-speaker-bartosz-bilicki:before,
+  .wcb-speaker-krzysztof-ozog:before,
+  .wcb-speaker-marcin-krzeminski:before,
+  .wcb-track-dla-programistow:before {
+    content: 'Dla programistów';
+    display: block;
+    padding: 2px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px; }
 
 .wcb-track-dla-programistow {
   font-size: 0; }

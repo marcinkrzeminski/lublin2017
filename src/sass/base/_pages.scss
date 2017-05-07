@@ -404,6 +404,16 @@
 .wcb-track-dla-programistow{
 
   background: rgba(192, 41, 66, 0.32);
+  position: relative;
+
+  &:before{
+    content: 'Dla programistów';
+    display: block;
+    padding: 2px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
 
 }
 
