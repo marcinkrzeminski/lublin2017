@@ -2708,7 +2708,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     padding: 2px;
     position: absolute;
     bottom: 5px;
-    right: 5px; }
+    right: 5px;
+    font-size: 12px; }
 
 .wcb-track-dla-programistow {
   font-size: 0; }
