@@ -2762,7 +2762,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     padding: 1px 7px;
     border-radius: 2px;
     color: #fff;
-    font-weight: normal; }
+    font-weight: normal;
+    width: 120px; }
 
 .wcb-track-dla-programistow {
   font-size: 0; }
