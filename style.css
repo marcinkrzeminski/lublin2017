@@ -2801,6 +2801,17 @@ body:not(.twentyseventeen-front-page) .entry-header {
     font-weight: normal;
     font-size: 12px; }
 
+.wcb-session-kontynuacja-warsztatow-5,
+.wcb-session-kontynuacja-warsztatow-6,
+.wcb-session-kontynuacja-warsztatow-7 {
+  border-bottom: 1px solid #fff;
+  vertical-align: middle !important; }
+  .wcb-session-kontynuacja-warsztatow-5 .wcpt-session-title,
+  .wcb-session-kontynuacja-warsztatow-6 .wcpt-session-title,
+  .wcb-session-kontynuacja-warsztatow-7 .wcpt-session-title {
+    font-weight: normal;
+    font-size: 12px; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
