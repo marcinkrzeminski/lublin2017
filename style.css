@@ -2650,7 +2650,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     text-align: center;
     height: 50px; }
   .wcpt-schedule .wcpt-col-track {
-    border-left: 1px solid gray;
+    border-left: 2px solid gray;
     background: #eee;
     text-align: center; }
 
