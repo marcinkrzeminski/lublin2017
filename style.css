@@ -2629,7 +2629,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     width: 4%; }
   .wcpt-schedule .wcpt-col-track {
     width: 32%;
-    border-bottom-width: 0; }
+    border-bottom-width: 1px; }
   .wcpt-schedule .wcpt-time {
     font-weight: bold; }
   .wcpt-schedule tr.global-session {
