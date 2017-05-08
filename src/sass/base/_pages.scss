@@ -477,7 +477,7 @@
 }
 
 .wcb-track-dla-programistow{
-  
+
 
   &:before{
 
@@ -503,4 +503,11 @@
 
     border-right: 2px solid #006f99;
     border-bottom: 1px solid #fff;
+    vertical-align: middle;
+
+  .wcpt-session-title{
+
+    font-weight: normal;
+    
+  }
 }
