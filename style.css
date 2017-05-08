@@ -2655,6 +2655,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcpt-schedule .wcpt-col-track {
     background: #c0c0c0;
     text-align: center; }
+    .wcpt-schedule .wcpt-col-track:nth-child(even) {
+      background: #d4d4d4; }
 
 /*dla wszystkich*/
 .wcb-speaker-magdalena-paciorek.wcb-speaker-jakub-milczarek,

@@ -360,9 +360,13 @@
   }
 
   .wcpt-col-track{
-   
+
     background: #c0c0c0;
     text-align: center;
+
+    &:nth-child(even){
+      background: #d4d4d4;
+    }
   }
 
 }
