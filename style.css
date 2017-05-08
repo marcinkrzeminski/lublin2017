@@ -2264,7 +2264,8 @@ a.btn-red {
   float: right; }
 
 .entry-content h2 {
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin: 40px 0; }
 
 .entry-content p + h2 {
   margin: 50px 0 40px 0; }
