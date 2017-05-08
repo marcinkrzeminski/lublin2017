@@ -503,11 +503,12 @@
 
     border-right: 2px solid #006f99;
     border-bottom: 1px solid #fff;
-    vertical-align: middle;
+    vertical-align: middle!important;
 
   .wcpt-session-title{
 
     font-weight: normal;
-    
+    font-size: 12px;
+
   }
 }
