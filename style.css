@@ -2777,6 +2777,19 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcb-track-dla-programistow:before {
     display: none; }
 
+/*warsztaty*/
+.wcb-speaker-krzysztof-ozog,
+.wcb-speaker-katarzyna-janoska.wcb-track-sala-b,
+.wcb-session-kontynuacja-warsztatow-3 {
+  border-bottom: 1px solid #fff; }
+
+.wcb-session-kontynuacja-warsztatow-4,
+.wcb-session-kontynuacja-warsztatow-3,
+.wcb-session-kontynuacja-warsztatow-8,
+.wcb-session-kontynuacja-warsztatow-2 {
+  font-size: 0;
+  border-right: 2px solid #006f99; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
