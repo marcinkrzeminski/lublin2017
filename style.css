@@ -2779,7 +2779,13 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-krzysztof-ozog,
 .wcb-speaker-katarzyna-janoska.wcb-track-sala-b,
 .wcb-session-kontynuacja-warsztatow-3 {
-  border-bottom: 1px solid #fff; }
+  border-bottom: 1px solid #fff;
+  vertical-align: middle !important; }
+  .wcb-speaker-krzysztof-ozog .wcpt-session-title,
+  .wcb-speaker-katarzyna-janoska.wcb-track-sala-b .wcpt-session-title,
+  .wcb-session-kontynuacja-warsztatow-3 .wcpt-session-title {
+    font-weight: normal;
+    font-size: 12px; }
 
 .wcb-session-kontynuacja-warsztatow-4,
 .wcb-session-kontynuacja-warsztatow-3,
