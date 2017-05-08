@@ -315,15 +315,13 @@
 
   }
 
-  tr:nth-child(odd){
+  tr.global-session{
 
     background-color: #f3f3f3;
+    border-right: 2px solid #d9d9d9;
 
   }
 
-  tr:hover{
-    background: #eee;
-  }
 
 
 
@@ -332,6 +330,10 @@
     padding: 0.7em 0.7em;
     vertical-align: top;
 
+  }
+
+  th{
+    padding: 0.7em 0.7em;
   }
 
   .wcpt-session-speakers{

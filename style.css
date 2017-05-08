@@ -2630,13 +2630,14 @@ body:not(.twentyseventeen-front-page) .entry-header {
     width: 32%; }
   .wcpt-schedule .wcpt-time {
     font-weight: bold; }
-  .wcpt-schedule tr:nth-child(odd) {
-    background-color: #f3f3f3; }
-  .wcpt-schedule tr:hover {
-    background: #eee; }
+  .wcpt-schedule tr.global-session {
+    background-color: #f3f3f3;
+    border-right: 2px solid #d9d9d9; }
   .wcpt-schedule td {
     padding: 0.7em 0.7em;
     vertical-align: top; }
+  .wcpt-schedule th {
+    padding: 0.7em 0.7em; }
   .wcpt-schedule .wcpt-session-speakers {
     clear: both;
     display: block; }
