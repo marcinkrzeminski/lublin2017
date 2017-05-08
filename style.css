@@ -2772,10 +2772,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     color: #fff;
     font-weight: normal; }
 
-.wcb-track-dla-programistow {
-  font-size: 0; }
-  .wcb-track-dla-programistow:before {
-    display: none; }
+.wcb-track-dla-programistow:before {
+  display: none; }
 
 /*warsztaty*/
 .wcb-speaker-krzysztof-ozog,
@@ -2787,8 +2785,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-session-kontynuacja-warsztatow-3,
 .wcb-session-kontynuacja-warsztatow-8,
 .wcb-session-kontynuacja-warsztatow-2 {
-  font-size: 0;
-  border-right: 2px solid #006f99; }
+  border-right: 2px solid #006f99;
+  border-bottom: 1px solid #fff; }
 
 /*--------------------------------------------------------------
 13.6 Footer
