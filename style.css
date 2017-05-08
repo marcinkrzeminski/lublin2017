@@ -2694,7 +2694,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     display: block;
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 7px;
     font-size: 10px;
     background-color: #006f99;
     padding: 1px 5px;
@@ -2718,7 +2718,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     display: block;
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 7px;
     font-size: 10px;
     background-color: #61BD4F;
     padding: 1px 5px;
@@ -2764,7 +2764,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
     display: block;
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 7px;
     font-size: 10px;
     background-color: #c02942;
     padding: 1px 5px;
@@ -2782,7 +2782,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
   border-bottom: 1px solid #fff;
   vertical-align: middle !important; }
 
-.wcb-session-kontynuacja-warsztatow-3 .wcpt-session-title {
+.wcb-session-kontynuacja-warsztatow-3 .wcpt-session-title,
+.wcb-track-dla-programistow.wcb-track-sala-b .wcpt-session-title {
   font-weight: normal;
   font-size: 12px; }
 
