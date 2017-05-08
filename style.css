@@ -2812,6 +2812,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
     font-weight: normal;
     font-size: 12px; }
 
+.wcb-speaker-marcin-krzeminski.wcb-track-sala-b,
+.wcb-speaker-dominik-kawula.wcb-track-sala-b {
+  border-bottom: 1px solid #fff; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
