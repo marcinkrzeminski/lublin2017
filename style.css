@@ -2693,8 +2693,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     content: 'Dla wszystkich';
     display: block;
     position: absolute;
-    top: .7em;
-    right: .7em;
+    top: 9.8px;
+    right: 9.8px;
     font-size: 10px;
     background-color: #006f99;
     padding: 1px 5px;
@@ -2717,8 +2717,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     content: 'Dla blogerów';
     display: block;
     position: absolute;
-    top: .7em;
-    right: .7em;
+    top: 9.8px;
+    right: 9.8px;
     font-size: 10px;
     background-color: #61BD4F;
     padding: 1px 5px;
@@ -2763,8 +2763,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     content: 'Dla programistów';
     display: block;
     position: absolute;
-    top: .7em;
-    right: .7em;
+    top: 9.8px;
+    right: 9.8px;
     font-size: 10px;
     background-color: #c02942;
     padding: 1px 5px;
