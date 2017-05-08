@@ -2695,9 +2695,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
     position: absolute;
     top: 5px;
     left: 5px;
-    font-size: 11px;
+    font-size: 10px;
     background-color: #006f99;
-    padding: 1px 7px;
+    padding: 1px 5px;
     border-radius: 2px;
     color: #fff;
     font-weight: normal; }
@@ -2719,9 +2719,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
     position: absolute;
     top: 5px;
     left: 5px;
-    font-size: 11px;
+    font-size: 10px;
     background-color: #61BD4F;
-    padding: 1px 7px;
+    padding: 1px 5px;
     border-radius: 2px;
     color: #fff;
     font-weight: normal; }
@@ -2765,9 +2765,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
     position: absolute;
     top: 5px;
     left: 5px;
-    font-size: 11px;
+    font-size: 10px;
     background-color: #c02942;
-    padding: 1px 7px;
+    padding: 1px 5px;
     border-radius: 2px;
     color: #fff;
     font-weight: normal; }
@@ -2781,11 +2781,10 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-session-kontynuacja-warsztatow-3 {
   border-bottom: 1px solid #fff;
   vertical-align: middle !important; }
-  .wcb-speaker-krzysztof-ozog .wcpt-session-title,
-  .wcb-speaker-katarzyna-janoska.wcb-track-sala-b .wcpt-session-title,
-  .wcb-session-kontynuacja-warsztatow-3 .wcpt-session-title {
-    font-weight: normal;
-    font-size: 12px; }
+
+.wcb-session-kontynuacja-warsztatow-3 .wcpt-session-title {
+  font-weight: normal;
+  font-size: 12px; }
 
 .wcb-session-kontynuacja-warsztatow-4,
 .wcb-session-kontynuacja-warsztatow-3,
