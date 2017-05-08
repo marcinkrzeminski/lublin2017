@@ -301,13 +301,14 @@
   .wcpt-col-time{
 
     width: 4%;
+    border-bottom: 0;
 
   }
 
   .wcpt-col-track{
 
     width: 32%;
-    border-bottom-width: 1px;
+    border-bottom-width: 0px;
   }
 
   .wcpt-time{
@@ -318,8 +319,8 @@
 
   tr.global-session{
 
-    background-color: #f3f3f3;
-    border-right: 2px solid #d9d9d9;
+    background-color: #cfcfcf;
+
 
   }
 
