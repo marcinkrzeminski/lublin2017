@@ -2635,7 +2635,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcpt-schedule tr:hover {
     background: #eee; }
   .wcpt-schedule td {
-    padding: 0.7em 0.7em; }
+    padding: 0.7em 0.7em;
+    vertical-align: top; }
   .wcpt-schedule .wcpt-session-speakers {
     clear: both;
     display: block; }
