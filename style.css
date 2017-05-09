@@ -2745,7 +2745,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-bartosz-bilicki,
 .wcb-speaker-krzysztof-ozog,
 .wcb-speaker-marcin-krzeminski,
-.wcb-track-dla-programistow {
+.wcb-track-dla-programistow,
+.wcb-speaker-patryk-omiotek {
   padding-top: 35px !important;
   border-right: 2px solid #c02942;
   position: relative; }
@@ -2763,7 +2764,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
   .wcb-speaker-bartosz-bilicki:before,
   .wcb-speaker-krzysztof-ozog:before,
   .wcb-speaker-marcin-krzeminski:before,
-  .wcb-track-dla-programistow:before {
+  .wcb-track-dla-programistow:before,
+  .wcb-speaker-patryk-omiotek:before {
     content: 'Dla programistów';
     display: block;
     position: absolute;
@@ -2782,7 +2784,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 /*warsztaty*/
 .wcb-speaker-krzysztof-ozog,
 .wcb-speaker-katarzyna-janoska.wcb-track-sala-b,
-.wcb-session-kontynuacja-warsztatow-3 {
+.wcb-session-kontynuacja-warsztatow-3,
+.wcb-session-kontynuacja-warsztatow-9 {
   border-bottom: 1px solid #fff;
   vertical-align: middle !important; }
 
