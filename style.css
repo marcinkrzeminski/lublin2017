@@ -2824,6 +2824,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-patryk-omiotek.wcb-track-dla-programistow {
   border-bottom: 1px solid #fff; }
 
+.wcb-speaker-patryk-omiotek.wcb-track-dla-programistow .wcpt-session-title {
+  font-size: 14px; }
+
 /*--------------------------------------------------------------
 13.6 Footer
 --------------------------------------------------------------*/
