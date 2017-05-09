@@ -462,10 +462,10 @@
 .wcb-track-dla-programistow,
 .wcb-speaker-patryk-omiotek.wcb-track-dla-programistow{
 
-  //background: rgba(192, 41, 66, 0.32);
   padding-top: 35px!important;
   border-right: 2px solid rgb(192, 41, 66);
   position: relative;
+
 
   &:before{
     content: 'Dla programistów';
@@ -479,7 +479,6 @@
     border-radius: 2px;
     color: #fff;
     font-weight: normal;
-
   }
 
 }
