@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*!
 Theme Name: Twenty Seventeen
 Theme URI: https://wordpress.org/themes/twentyseventeen/
@@ -2821,7 +2820,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
     font-size: 12px; }
 
 .wcb-speaker-marcin-krzeminski.wcb-track-sala-b,
-.wcb-speaker-dominik-kawula.wcb-track-sala-b {
+.wcb-speaker-dominik-kawula.wcb-track-sala-b,
+.wcb-speaker-patryk-omiotek.wcb-track-dla-programistow {
   border-bottom: 1px solid #fff; }
 
 /*--------------------------------------------------------------
