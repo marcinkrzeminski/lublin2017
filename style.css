@@ -4303,8 +4303,12 @@ embed, iframe, object {
       width: 50%; } }
 
 @media screen and (max-width: 700px) {
-  .wcpt-schedule tbody tr td {
-    border-bottom: 1px solid #eee; } }
+  .wcpt-schedule .wcpt-session-type-session:before {
+    border: none; }
+  .wcpt-schedule tbody tr {
+    border: none; }
+    .wcpt-schedule tbody tr td {
+      border-bottom: 1px solid #eee; } }
 
 @media screen and (min-width: 67em) {
   /* Navigation */

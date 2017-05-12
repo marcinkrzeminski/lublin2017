@@ -909,9 +909,19 @@
 
   .wcpt-schedule{
 
+    .wcpt-session-type-session:before{
+
+      border: none;
+
+    }
+
+
+
     tbody{
 
       tr{
+
+        border: none;
 
         td{
 
