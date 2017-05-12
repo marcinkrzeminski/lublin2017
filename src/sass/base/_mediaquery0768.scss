@@ -924,11 +924,20 @@
 
         border: none;
 
+        &.global-session{
+
+          td{
+            width: 50%;
+            float: left;
+          }
+
+        }
+
         td{
 
           border-bottom: 1px solid #eee;
 
-          .wcpt-time{
+          &.wcpt-time{
 
             background: #f4f4f4;
 

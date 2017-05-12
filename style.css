@@ -4308,9 +4308,12 @@ embed, iframe, object {
     padding: 2px 10px; }
   .wcpt-schedule tbody tr {
     border: none; }
+    .wcpt-schedule tbody tr.global-session td {
+      width: 50%;
+      float: left; }
     .wcpt-schedule tbody tr td {
       border-bottom: 1px solid #eee; }
-      .wcpt-schedule tbody tr td .wcpt-time {
+      .wcpt-schedule tbody tr td.wcpt-time {
         background: #f4f4f4; } }
 
 @media screen and (min-width: 67em) {
