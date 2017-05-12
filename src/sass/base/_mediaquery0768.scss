@@ -912,6 +912,7 @@
     .wcpt-session-type-session:before{
 
       border: none;
+      padding: 2px 10px;
 
     }
 
@@ -926,6 +927,12 @@
         td{
 
           border-bottom: 1px solid #eee;
+
+          .wcpt-time{
+
+            background: #f4f4f4;
+
+          }
 
         }
 
