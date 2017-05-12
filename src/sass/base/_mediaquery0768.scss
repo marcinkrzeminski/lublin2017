@@ -852,6 +852,10 @@
 
   }
 
+
+
+
+
 }
 
 @media screen and (min-width:  30em) and (max-width: 48em) {
@@ -899,6 +903,30 @@
   }
 
 }
+
+
+@media screen  and (max-width: 700px) {
+
+  .wcpt-schedule{
+
+    tbody{
+
+      tr{
+
+        border-bottom: 1px solid #eee;
+
+      }
+
+    }
+
+  }
+
+}
+
+//Program
+
+
+
 
 
 
