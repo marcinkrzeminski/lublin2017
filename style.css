@@ -4315,7 +4315,10 @@ embed, iframe, object {
       border-bottom: 1px solid #eee; }
       .wcpt-schedule tbody tr td.wcpt-time {
         background: #f4f4f4;
-        clear: both; } }
+        clear: both;
+        padding: 0.7em; }
+        .wcpt-schedule tbody tr td.wcpt-time + td {
+          background: #f4f4f4; } }
 
 @media screen and (min-width: 67em) {
   /* Navigation */
