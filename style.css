@@ -4310,14 +4310,13 @@ embed, iframe, object {
   .wcpt-schedule tbody tr {
     border: none; }
     .wcpt-schedule tbody tr td {
-      border-bottom: 1px solid #eee; }
+      border-bottom: 1px solid #eee;
+      border-right-width: 2px; }
       .wcpt-schedule tbody tr td.wcpt-time {
         background: #f4f4f4;
         clear: both;
         padding: 0.7em;
-        width: 100%; }
-        .wcpt-schedule tbody tr td.wcpt-time + td {
-          background: #f4f4f4; } }
+        width: 100%; } }
 
 @media screen and (min-width: 67em) {
   /* Navigation */

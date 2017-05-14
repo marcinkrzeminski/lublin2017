@@ -934,6 +934,7 @@
         td{
 
           border-bottom: 1px solid #eee;
+          border-right-width: 2px;
 
           &.wcpt-time{
 
@@ -941,12 +942,6 @@
             clear: both;
             padding: 0.7em;
             width: 100%;
-
-            + td{
-
-              background: #f4f4f4;
-
-            }
 
           }
 
