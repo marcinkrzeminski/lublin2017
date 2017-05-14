@@ -2748,7 +2748,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-track-dla-programistow,
 .wcb-speaker-patryk-omiotek.wcb-track-dla-programistow {
   padding-top: 35px !important;
-  border-right: 2px solid #c02942;
+  border-right: 2px solid #c02942 !important;
   position: relative; }
   .wcb-speaker-tomasz-dziuda:before,
   .wcb-speaker-rafal-osinski:before,
