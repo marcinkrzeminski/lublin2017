@@ -4305,18 +4305,17 @@ embed, iframe, object {
 @media screen and (max-width: 700px) {
   .wcpt-schedule .wcpt-session-type-session:before {
     border: none;
-    padding: 2px 10px; }
+    padding: 3px 10px;
+    font-size: 12px; }
   .wcpt-schedule tbody tr {
     border: none; }
-    .wcpt-schedule tbody tr.global-session td {
-      width: 50%;
-      float: left; }
     .wcpt-schedule tbody tr td {
       border-bottom: 1px solid #eee; }
       .wcpt-schedule tbody tr td.wcpt-time {
         background: #f4f4f4;
         clear: both;
-        padding: 0.7em; }
+        padding: 0.7em;
+        width: 100%; }
         .wcpt-schedule tbody tr td.wcpt-time + td {
           background: #f4f4f4; } }
 
