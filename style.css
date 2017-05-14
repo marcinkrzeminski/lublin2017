@@ -2712,7 +2712,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-tomasz-palak,
 .wcb-speaker-lukasz-badziak {
   padding-top: 35px !important;
-  border-right: 2px solid #61BD4F;
+  border-right: 2px solid #61BD4F !important;
   position: relative; }
   .wcb-speaker-bartosz-romanowski:before,
   .wcb-speaker-ola-gosciniak:before,
@@ -2798,7 +2798,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-session-kontynuacja-warsztatow-3,
 .wcb-session-kontynuacja-warsztatow-8,
 .wcb-session-kontynuacja-warsztatow-2 {
-  border-right: 2px solid #006f99;
+  border-right: 2px solid #006f99 !important;
   border-bottom: 1px solid #fff;
   vertical-align: middle !important; }
   .wcb-session-kontynuacja-warsztatow-4 .wcpt-session-title,
