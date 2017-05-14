@@ -2711,7 +2711,6 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-ola-gosciniak,
 .wcb-speaker-tomasz-palak,
 .wcb-speaker-lukasz-badziak {
-  
   padding-top: 35px !important;
   border-right: 2px solid #61BD4F !important;
   position: relative; }
@@ -4311,8 +4310,7 @@ embed, iframe, object {
   .wcpt-schedule tbody tr {
     border: none; }
     .wcpt-schedule tbody tr td {
-      border-bottom: 1px solid #eee;
-      border-right-width: 2px; }
+      border-bottom: 1px solid #eee; }
       .wcpt-schedule tbody tr td.wcpt-time {
         background: #f4f4f4;
         clear: both;
