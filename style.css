@@ -2676,7 +2676,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .wcb-speaker-katarzyna-janoska,
 .wcb-speaker-dominik-kawula {
   padding-top: 35px !important;
-  border-right: 2px solid #006f99;
+  border-right: 2px solid #006f99 !important;
   position: relative; }
   .wcb-speaker-magdalena-paciorek.wcb-speaker-jakub-milczarek:before,
   .wcb-speaker-maciej-swoboda:before,
